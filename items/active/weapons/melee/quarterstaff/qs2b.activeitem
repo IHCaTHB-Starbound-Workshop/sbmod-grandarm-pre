@@ -1,0 +1,69 @@
+{
+  "itemName" : "qs2b",
+  "price" : 900,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "qs2b",
+  "shortdescription" : "qs2b",
+  "tooltipKind" : "sword",
+  "category" : "quarterstaff",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","quarterstaff"],
+
+  "animation" : "qs.animation",
+  "animationParts" : { },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "fireTime" : [0.66, 0.89],
+    "baseDps" : [7, 8],
+    "damageConfig" : {
+      "knockbackRange" : [35, 40]
+    }
+  },
+  "fireSounds" : [ "/sfx/melee/swing_spear.ogg" ],
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+//    "nameGenerator" : "qsnames.config:nameGen",
+    "animationParts" : {
+      "blade" : {
+        "path" : "/items/active/weapons/wand/generated/handle/<variant>.png?crop=2;4;20;50?flipy?replace;1a1c51=0964a0;24232f=0964a0;871132=890900;642f00=890900;373737=676767;3d3d51=2992bc;b22042=e5323b;344495=2992bc;676f83=60b9ff;a46e06=890900;e35f5d=ff7060;7b7b7b=b1b1b1;5588d4=2992bc;b6b6b6=e9e9e9;e2c344=ff7060;96cbe7=60b9ff",
+        "variants" : 10,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "/items/active/weapons/wand/generated/handle/<variant>.png?crop=2;4;20;50?replace;1a1c51=0964a0;24232f=0964a0;871132=890900;642f00=890900;373737=676767;3d3d51=2992bc;b22042=e5323b;344495=2992bc;676f83=60b9ff;a46e06=890900;e35f5d=ff7060;7b7b7b=b1b1b1;5588d4=2992bc;b6b6b6=e9e9e9;e2c344=ff7060;96cbe7=60b9ff",
+        "variants" : 10,
+        "paletteSwap" : true
+      },
+      "handle0" : {
+        "path" : "/items/active/weapons/wand/generated/handle/<variant>.png?crop=2;4;20;20?replace;1a1c51=0964a0;24232f=0964a0;871132=890900;642f00=890900;373737=676767;3d3d51=2992bc;b22042=e5323b;344495=2992bc;676f83=60b9ff;a46e06=890900;e35f5d=ff7060;7b7b7b=b1b1b1;5588d4=2992bc;b6b6b6=e9e9e9;e2c344=ff7060;96cbe7=60b9ff",
+        "variants" : 10,
+        "paletteSwap" : true
+      },
+      "crown" : {
+        "path" : "/items/active/weapons/wand/generated/crown/<variant>.png?crop=2;0;20;32?replace;871132=890900;b22042=e5323b;e35f5d=ff7060;4aff3c=60b9ff",
+        "variants" : 15,
+        "paletteSwap" : true
+      }
+    },
+    "altAbilities" : [
+      "flurry",
+      "spearspin",
+      "uppercut",
+      "physicalshockwave",
+      "groundslam"
+    ],
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [ "handle" ,"handle0" , "blade", "crown" ]
+  }]
+}
+

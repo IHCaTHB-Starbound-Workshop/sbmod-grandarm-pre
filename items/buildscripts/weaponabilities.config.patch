@@ -1,0 +1,27 @@
+[
+  {
+    "op": "add",
+    "path": "/clubsmash",
+    "value": "/items/active/weapons/melee/abilities/club/clubsmash.weaponability"
+  },
+  {
+    "op" : "add",
+    "path" : "/shortspearstab",
+    "value" : "/items/active/weapons/melee/abilities/shortspear/shortspearstab.weaponability"
+  },
+  {
+    "op": "add",
+    "path": "/hammerhand",
+    "value": "/items/active/weapons/melee/abilities/hammerhand/hammerhand.weaponability"
+  },
+  {
+    "op": "add",
+    "path": "/axehand",
+    "value": "/items/active/weapons/melee/abilities/axehand/axehand.weaponability"
+  },
+  {
+    "op": "add",
+    "path": "/armblade",
+    "value": "/items/active/weapons/melee/abilities/armblade/armblade.weaponability"
+  }
+]

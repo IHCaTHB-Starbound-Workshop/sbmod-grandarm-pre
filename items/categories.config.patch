@@ -1,0 +1,22 @@
+[
+  {
+    "op": "add",
+    "path": "/labels/cane",
+    "value": "Cane"
+  },
+  {
+    "op": "add",
+    "path": "/labels/baton",
+    "value": "Baton"
+  },
+  {
+    "op": "add",
+    "path": "/labels/club",
+    "value": "Club"
+  },
+  {
+    "op": "add",
+    "path": "/labels/quarterstaff",
+    "value": "Quarterstaff"
+  }
+]

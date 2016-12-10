@@ -1,0 +1,62 @@
+{
+  "itemName" : "longbow3",
+  "price" : 900,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Longbow 3.",
+  "shortdescription" : "longbow3",
+  "tooltipKind" : "sword",
+  "category" : "bow",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","bow"],
+
+  "animation" : "longbow.animation",
+  "animationParts" : { },
+  "animationCustom" : { },
+
+  "elementalType" : "physical",
+
+  "scripts" : ["/items/active/weapons/bow/bow.lua"],
+
+  "primaryAbilityType" : "bowshot",
+  "primaryAbility" : {
+
+  },
+
+  "altAbilityType" : "zenshot",
+  "altAbility" : {
+
+  },
+  "fireSounds" : [ "/sfx/melee/swing_spear.ogg" ],
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+//    "nameGenerator" : "/items/active/weapons/melee/quarterstaff/qsnames.config:nameGen",
+    "animationParts" : {
+      "bow0" : {
+        "path" : "/items/active/weapons/melee/axe/handle/<variant>.png?crop=0;0;24;56?flipy",
+        "variants" : 56,
+        "paletteSwap" : true
+      },
+      "bow" : {
+        "path" : "/items/active/weapons/melee/axe/handle/<variant>.png?crop=0;0;24;56",
+        "variants" : 56,
+        "paletteSwap" : true
+      },
+      "arrow" : {
+        "path" : "arrow/arrow.png",
+        "paletteSwap" : false
+      }
+    },
+    "altAbilities" : [
+      "flurry",
+      "spearspin",
+      "uppercut",
+      "physicalshockwave",
+      "groundslam"
+    ],
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [ "bow", "bow0" ]
+  }]
+}
+

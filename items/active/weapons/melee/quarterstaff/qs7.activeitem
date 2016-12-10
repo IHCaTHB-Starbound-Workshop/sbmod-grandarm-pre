@@ -1,0 +1,59 @@
+{
+  "itemName" : "qs7",
+  "price" : 900,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "qs7",
+  "shortdescription" : "qs7",
+  "tooltipKind" : "sword",
+  "category" : "quarterstaff",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","quarterstaff"],
+
+  "animation" : "qs.animation",
+  "animationParts" : { },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "fireTime" : [0.66, 0.89],
+    "baseDps" : [7, 8],
+    "damageConfig" : {
+      "knockbackRange" : [35, 40]
+    }
+  },
+  "fireSounds" : [ "/sfx/melee/swing_spear.ogg" ],
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+//    "nameGenerator" : "qsnames.config:nameGen",
+    "animationParts" : {
+      "blade" : {
+        "path" : "/items/active/weapons/melee/dagger/handle/<variant>.png?flipy",
+        "variants" : 31,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "/items/active/weapons/melee/spear/handle/<variant>.png",
+        "variants" : 50,
+        "paletteSwap" : true
+      }
+    },
+    "altAbilities" : [
+      "flurry",
+      "spearspin",
+      "uppercut",
+      "physicalshockwave",
+      "groundslam"
+    ],
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [ "handle", "blade" ]
+  }]
+}
+

@@ -1,0 +1,50 @@
+{
+  "itemName" : "club2",
+  "price" : 900,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "club2",
+  "shortdescription" : "club2",
+  "tooltipKind" : "sword",
+  "category" : "club",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","club"],
+
+  "animation" : "club.animation",
+  "animationParts" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "clubsmash",
+  "primaryAbility" : {
+    "fireTime" : [1.0, 1.2],
+    "baseDps" : [11, 12]
+  },
+  "fireSounds" : [ "/sfx/melee/swing_hammer.ogg" ],
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+//    "nameGenerator" : "/items/active/weapons/melee/hammer/hammernames.config:nameGen",
+    "animationParts" : {
+      "blade" : {
+        "path" : "/items/active/weapons/melee/hammer/handle/<variant>.png?flipy",
+        "variants" : 54,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "/items/active/weapons/melee/broadsword/handle/<variant>.png",
+        "variants" : 35,
+        "paletteSwap" : true
+      }
+    },
+    "altAbilities" : [
+      "uppercut",
+      "physicalshockwave",
+      "groundslam"
+    ],
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [ "handle" , "blade" ]
+  }]
+}

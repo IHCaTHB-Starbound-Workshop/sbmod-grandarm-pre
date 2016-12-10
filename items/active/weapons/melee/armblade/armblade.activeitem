@@ -1,0 +1,42 @@
+{
+  "itemName" : "armblade",
+  "price" : 600,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "armblade",
+  "shortdescription" : "armblade",
+  "tooltipKind" : "sword",
+  "category" : "armblade",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword"],
+
+  "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
+  "animationParts" : { },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "handGrip" : "inside",
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "armblade",
+  "primaryAbility" : {
+    "fireTime" : [0.5, 0.67],
+    "baseDps" : [6, 7]
+  },
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+//    "nameGenerator" : "/items/active/weapons/melee/shortsword/shortswordnames.config:nameGen",
+    "animationParts" : {
+      "blade" : {
+        "path" : "/items/active/weapons/melee/shortsword/blade/<variant>.png",
+        "variants" : 40,
+        "paletteSwap" : true
+      }
+    },
+    "altAbilities" : [ ],
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [ "blade"]
+  }]
+}

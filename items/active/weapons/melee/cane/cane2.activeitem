@@ -1,0 +1,45 @@
+{
+  "itemName" : "cane2",
+  "price" : 600,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "cane2",
+  "shortdescription" : "cane2",
+  "tooltipKind" : "sword",
+  "category" : "cane",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","cane"],
+
+  "animation" : "combocane.animation",
+  "animationParts" : { },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : [0.45, 0.6], //90% original shortsword model
+    "baseDps" : [6, 7]
+  },
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+//    "nameGenerator" : "canenames.config:nameGen",
+    "animationParts" : {
+      "blade" : {
+        "path" : "/items/active/weapons/melee/dagger/handle/<variant>.png?crop=0;0;24;32?flipy",
+        "variants" : 31,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "/items/active/weapons/melee/dagger/handle/<variant>.png?crop=0;0;24;46",
+        "variants" : 31,
+        "paletteSwap" : true
+      }
+    },
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [ "blade" , "handle" ]
+  }]
+}

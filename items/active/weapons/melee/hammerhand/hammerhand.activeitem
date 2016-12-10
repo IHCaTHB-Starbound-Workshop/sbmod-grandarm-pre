@@ -1,0 +1,46 @@
+{
+  "itemName" : "hammerhand",
+  "price" : 900,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "hammerhand",
+  "shortdescription" : "hammerhand",
+  "tooltipKind" : "sword",
+  "category" : "hammer",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","hammer"],
+
+  "animation" : "/items/active/weapons/melee/hammer/hammer.animation",
+  "animationParts" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "handGrip" : "wrap",
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "hammerhand",
+  "primaryAbility" : {
+    "fireTime" : [1.0, 1.2],
+    "baseDps" : [12, 13]
+  },
+  "fireSounds" : [ "/sfx/melee/swing_hammer.ogg" ],
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+//    "nameGenerator" : "/items/active/weapons/melee/hammer/hammernames.config:nameGen",
+    "animationParts" : {
+      "blade" : {
+        "path" : "/items/active/weapons/melee/hammer/blade/<variant>.png",
+        "variants" : 54,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "/items/active/weapons/melee/hammer/blade/<variant>.png?crop=9;18;15;64",
+        "variants" : 55,
+        "paletteSwap" : true
+      }
+    },
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [ "blade" , "handle" ]
+  }]
+}

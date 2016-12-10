@@ -1,0 +1,53 @@
+{
+  "itemName" : "axehand",
+  "price" : 600,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "axehand",
+  "shortdescription" : "axehand",
+  "tooltipKind" : "sword",
+  "category" : "axehand",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","axe"],
+
+  "animation" : "/items/active/weapons/melee/axe/axe.animation",
+  "animationParts" : { },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "handGrip" : "wrap",
+
+  "elementalType" : "physical",
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "axehand",
+  "primaryAbility" : {
+    "fireTime" : [0.9, 1.2],
+    "baseDps" : [9.5, 10],
+    "damageConfig" : {
+      "knockbackRange" : [25, 30]
+    }
+  },
+  "fireSounds" : [ "/sfx/melee/swing_axe.ogg" ],
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+//    "nameGenerator" : "/items/active/weapons/melee/axe/axenames.config:nameGen",
+    "animationParts" : {
+      "blade" : {
+        "path" : "/items/active/weapons/melee/axe/blade/<variant>.png",
+        "variants" : 59,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "/items/active/weapons/melee/hammer/blade/<variant>.png?crop=9;32;15;64",
+        "variants" : 55,
+        "paletteSwap" : true
+      }
+    },
+    "altAbilities" : [ ],
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [ "blade" , "handle" ]
+  }]
+}

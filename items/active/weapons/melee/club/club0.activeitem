@@ -1,0 +1,45 @@
+{
+  "itemName" : "club0",
+  "price" : 900,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "club0",
+  "shortdescription" : "club0",
+  "tooltipKind" : "sword",
+  "category" : "club",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","club"],
+
+  "animation" : "club.animation",
+  "animationParts" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "clubsmash",
+  "primaryAbility" : {
+    "fireTime" : [1.0, 1.2],
+    "baseDps" : [11, 12]
+  },
+  "fireSounds" : [ "/sfx/melee/swing_hammer.ogg" ],
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+//    "nameGenerator" : "/items/active/weapons/melee/hammer/hammernames.config:nameGen",
+    "animationParts" : {
+      "handle" : {
+        "path" : "/items/active/weapons/melee/spear/handle/<variant>.png?flipy",
+        "variants" : 50,
+        "paletteSwap" : true
+      }
+    },
+    "altAbilities" : [
+      "uppercut",
+      "physicalshockwave",
+      "groundslam"
+    ],
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [ "handle" ]
+  }]
+}

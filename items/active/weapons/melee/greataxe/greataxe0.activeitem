@@ -1,0 +1,58 @@
+{
+  "itemName" : "greataxe0",
+  "price" : 900,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "greataxe0",
+  "shortdescription" : "greataxe0",
+  "tooltipKind" : "sword",
+  "category" : "axe",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","axe"],
+
+  "animation" : "greataxe.animation",
+  "animationParts" : { },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "axecleave",
+  "primaryAbility" : {
+    "fireTime" : [0.71, 0.9],
+    "baseDps" : [10, 11]
+  },
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+//    "nameGenerator" : "/items/active/weapons/melee/broadsword/swordnames.config:nameGen",
+    "animationParts" : {
+      "blade" : {
+        "path" : "/items/active/weapons/melee/axe/blade/<variant>.png?replace;890900=00000000;e5323b=00000000;ff7060=00000000",
+        "variants" : 59,
+        "paletteSwap" : true
+      },
+      "blade0" : {
+        "path" : "/items/active/weapons/melee/axe/blade/<variant>.png?flipx?replace;890900=00000000;e5323b=00000000;ff7060=00000000",
+        "variants" : 59,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "/items/active/weapons/melee/hammer/handle/<variant>.png?flipx",
+        "variants" : 54,
+        "paletteSwap" : true
+      }
+    },
+    "altAbilities" : [
+      "bladecharge",
+      "downstab",
+      "parry",
+      "risingslash",
+      "spinslash",
+      "superspinslash"
+    ],
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [  "handle" , "blade0" , "blade" ]
+  }]
+}
