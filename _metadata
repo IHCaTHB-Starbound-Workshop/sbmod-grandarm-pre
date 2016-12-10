@@ -1,8 +1,14 @@
 {
   "author" : "isaac as THE HONEY BADGER",
-  "description" : "]",
-  "friendlyName" : "Grand Armory Showcase"",
-  "includes" : [],
+  "description" : "^#5aa9d6;New weapon types for random generation.^reset;
+
+**This showcase version of the mod does not actually add them to random generation.
+
+Find one of each style in your shiplocker, the name will match the item id (if name is Common Xxx item id is commonxxx)
+
+For more, click the MEGATHREAD link above.",
+  "friendlyName" : "Grand Armory Showcase",
+  "includes" : ["QSARM.IHC","FrackinUniverse"],
   "name" : "GRANDARMPRE.IHC",
   "requires" : [],
   "version" : "0.1"

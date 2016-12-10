@@ -2,22 +2,47 @@
 #ingame
 #######
 
-^#5aa9d6;Title^reset;
+^#5aa9d6;New weapon types for random generation.^reset;
 
-For more, click the MEGATHREAD link from the steam page.
+**This showcase version of the mod does not actually add them to random generation.
+
+Find one of each style in your shiplocker, the name will match the item id (if name is Common Xxx item id is commonxxx)
+
+For more, click the MEGATHREAD link above.
 
 ######
 #steam
 ######
 
-[h1]Title[/h1]
+xxx
+
+[h1][/h1]
 
 [url=community.playstarbound.com/threads/124193/]MEGATHREAD[/url]
-Find the server version on [url=https://github.com/IsaacHart/sbmod-/releases/]git.[/url]
+Find the server version on [url=https://github.com/IsaacHart/sbmod-grandarmpre/releases/]git.[/url]
 
 ######
 #forum
 ######
+
+You have seen some of my weapon tweaks already in my Quarterstaff mod and featured in Frackin' Universe. This showcase is an attempt to share some of the other concepts that I have come up with on the off-chance that one of y'all wants to do your own weapon building. The work you will find here focuses on the wonton abuse of native assets. There is zero original artwork.
+
+This is a precursor to a later release of more refined weapon types that I will be adding into random generation using exclusively native assets. I'll only wind up using about half the concepts I came up with here, as it is important to me that my own project functions under very specific criteria.
+
+You will find one of each weapon type in your shiplocker, and none in random generation. Inclusion in random weapon pools will not be implimented in this showcase version.
+
+Intended usage:
+please use this to build feedback or as inspiration for your self
+probably pointless to include this mod as it is in an actual playthrough
+
+find one of each of the weapon types and styles in your shiplocker
+the displayed name of the weapon will match the id and file name, so if you are curious you can spawn more or look it up in the file structure
+
+Thanks goes to:
+@shadow-wolf-tjc the author of [url='community.playstarbound.com/resources/4285/']Expended Weapon Generation[/url] for giving me the original inspiration for this collection
+@tealsummernights for introducing me to [url='community.playstarbound.com/resources/4285/']Expended Weapon Generation[/url]
+@Errors4l for drawables feedback that got me back on track
+@chucklefish for doing that thing they do.
 
 [URL='http://community.playstarbound.com/threads/124193/']MEGATHREAD[/URL]
 
@@ -29,4 +54,4 @@ PERMISSIONS: granted per license, gplv3, included in download.
 #megathread
 ###########
 
-Standard () [URL='http://steamcommunity.com/sharedfiles/filedetails/?id=']steam[/URL] | [URL='http://community.playstarbound.com/resources//']forum[/URL] | [URL='https://github.com/IsaacHart/sbmod-/releases']github[/URL] | [URL='https://github.com/IsaacHart/sbmod-/releases/download//sbmod--.pak']direct[/URL]
+Grand Armory Showcase (0.1) [URL='http://steamcommunity.com/sharedfiles/filedetails/?id=']steam[/URL] | [URL='http://community.playstarbound.com/resources//']forum[/URL] | [URL='https://github.com/IsaacHart/sbmod-grandarmpre/releases']github[/URL] | [URL='https://github.com/IsaacHart/sbmod-grandarmpre/releases/download/0.1/sbmod-grandarmpre-0.1.pak']direct[/URL]
