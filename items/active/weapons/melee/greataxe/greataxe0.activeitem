@@ -39,8 +39,8 @@
         "paletteSwap" : true
       },
       "handle" : {
-        "path" : "/items/active/weapons/melee/hammer/handle/<variant>.png?flipx",
-        "variants" : 54,
+        "path" : "/items/active/weapons/melee/axe/handle/<variant>.png?",
+        "variants" : 56,
         "paletteSwap" : true
       }
     },
