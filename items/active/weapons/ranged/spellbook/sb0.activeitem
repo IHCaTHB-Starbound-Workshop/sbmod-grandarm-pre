@@ -15,36 +15,93 @@
   "elementalType" : "physical",
 
   "scripts" : ["/items/active/weapons/staff/staff.lua"],
+  "stances" : {
+    "idle" : {
+      "armRotation" : -90,
+      "weaponRotation" : 0,
+      "twoHanded" : false,
 
-  "primaryAbilityType" : "bowshot",
-  "primaryAbility" : {
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charge" : {
+      "duration" : 1.4,
+      "armRotation" : 0,
+      "weaponRotation" : -40,
+      "twoHanded" : true,
 
-  },
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charged" : {
+      "armRotation" : 0,
+      "weaponRotation" : -50,
+      "twoHanded" : true,
 
-  "altAbilityType" : "zenshot",
-  "altAbility" : {
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "discharge" : {
+      "duration" : 0.5,
+      "armRotation" : -10,
+      "weaponRotation" : -50,
+      "twoHanded" : true,
 
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "cooldown" : {
+      "duration" : 0.5,
+      "armRotation" : -45,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
   },
   "fireSounds" : [ "/sfx/melee/swing_spear.ogg" ],
 
   "builder" : "/items/buildscripts/buildweapon.lua",
   "builderConfig" : [{
 //    "nameGenerator" : "/items/active/weapons/wand/generated/wandnames.config:nameGen",
+    "elementalType" : [
+      "fire",
+      "ice",
+      "electric",
+      "poison"
+    ],
+    "elementalConfig" : {
+      "fire" : {
+        "animationCustom" : { "lights" : { "glow" : {
+          "color" : [140, 40, 20]
+        }}}
+      },
+      "ice" : {
+        "animationCustom" : { "lights" : { "glow" : {
+          "color" : [20, 80, 140]
+        }}}
+      },
+      "electric" : {
+        "animationCustom" : { "lights" : { "glow" : {
+          "color" : [80, 20, 140]
+        }}}
+      },
+      "poison" : {
+        "animationCustom" : { "lights" : { "glow" : {
+          "color" : [20, 140, 20]
+        }}}
+      }
+    },
     "animationParts" : {
       "handle" : {
-        "path" : "/items/active/weapons/wand/generated/handle/<variant>.png?replace;1a1c51=0964a0;24232f=0964a0;871132=00000000;642f00=00000000;373737=00000000;3d3d51=2992bc;b22042=e5323b;344495=2992bc;676f83=60b9ff;a46e06=00000000;e35f5d=ff7060;7b7b7b=e5323b;5588d4=2992bc;b6b6b6=ff7060;e2c344=ff7060;96cbe7=60b9ff?border=1;890900?border=1;e5323b?border=1;890900",
-        "variants" : 10,
+        "path" : "/items/active/weapons/melee/hammer/blade/<variant>.png?crop=9;32;14;40?replace;676767=00000000;b1b1b1=e5323b;e9e9e9=ff7060;890900=00000000?border=1;890900?border=1;e5323b?border=1;890900",
+        "variants" : 55,
         "paletteSwap" : true
       }
     },
-    "altAbilities" : [
-      "flurry",
-      "spearspin",
-      "uppercut",
-      "physicalshockwave",
-      "groundslam"
-    ],
     "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "primaryAbilities" : ["elementrain", "elementswarm", "elementbouncer", "elementorb", "elementportal"],
     "iconDrawables" : [ "handle" ]
   }]
 }
