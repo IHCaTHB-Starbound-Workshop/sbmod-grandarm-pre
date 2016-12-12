@@ -35,7 +35,7 @@
 //    "nameGenerator" : "/items/active/weapons/melee/spear/spearnames.config:nameGen",
     "animationParts" : {
       "blade" : {
-        "path" : "/items/active/weapons/melee/broadsword/blade/<variant>.png?crop=0;0;24;64",
+        "path" : "/items/active/weapons/melee/partisan/mask.png?blendmult=/items/active/weapons/melee/broadsword/blade/<variant>.png;0;-94?blendmult=/items/active/weapons/melee/partisan/masktrans.png;0;106?blendmult=/items/active/weapons/melee/partisan/masktrans.png;0;-158",
         "variants" : 46,
         "paletteSwap" : true
       },

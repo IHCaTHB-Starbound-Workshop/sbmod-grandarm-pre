@@ -35,7 +35,7 @@
 //    "nameGenerator" : "/items/active/weapons/melee/axe/axenames.config:nameGen",
     "animationParts" : {
       "blade" : {
-        "path" : "/items/active/weapons/melee/axe/blade/<variant>.png?crop=0;0;24;46",
+        "path" : "/items/active/weapons/melee/partisan/mask.png?blendmult=/items/active/weapons/melee/axe/blade/<variant>.png;0;-80?blendmult=/items/active/weapons/melee/partisan/masktrans.png;0;120?blendmult=/items/active/weapons/melee/partisan/masktrans.png;0;-144",
         "variants" : 59,
         "paletteSwap" : true
       },
