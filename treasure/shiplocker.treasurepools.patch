@@ -44,16 +44,6 @@
     "path": "/starterTreasure/0/1/fill/-",
     "value": {
       "item": [
-        "cane2",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
         "commonclub",
         1
       ]
@@ -124,6 +114,76 @@
     "path": "/starterTreasure/0/1/fill/-",
     "value": {
       "item": [
+        "greataxe1",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "greataxe2",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "greataxe3",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "greataxe4",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "greataxe5",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "greataxe6",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "greataxe7",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
         "greatsword",
         1
       ]
@@ -175,6 +235,76 @@
     "value": {
       "item": [
         "mace",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "mace0",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "mace0a",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "mace0b",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "mace1",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "mace2",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "mace3",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "mace3a",
         1
       ]
     }
@@ -244,27 +374,7 @@
     "path": "/starterTreasure/0/1/fill/-",
     "value": {
       "item": [
-        "qs2",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
         "qs1a",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
-        "qs2a",
         1
       ]
     }
@@ -284,7 +394,7 @@
     "path": "/starterTreasure/0/1/fill/-",
     "value": {
       "item": [
-        "qs2b",
+        "qs1c",
         1
       ]
     }
@@ -294,7 +404,27 @@
     "path": "/starterTreasure/0/1/fill/-",
     "value": {
       "item": [
-        "qs1c",
+        "qs2",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "qs2a",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "qs2b",
         1
       ]
     }
@@ -425,6 +555,26 @@
     "value": {
       "item": [
         "longbow3",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "sb",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "sb0",
         1
       ]
     }

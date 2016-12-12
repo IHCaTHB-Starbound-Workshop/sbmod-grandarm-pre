@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "description" : "gsb",
   "shortdescription" : "gsb",
-  "tooltipKind" : "sword",
+  "tooltipKind" : "staff",
   "category" : "spell",
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","spell"],

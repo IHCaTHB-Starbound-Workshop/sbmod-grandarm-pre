@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "description" : "sb0",
   "shortdescription" : "sb0",
-  "tooltipKind" : "sword",
+  "tooltipKind" : "staff",
   "category" : "spell",
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","spell"],
@@ -43,7 +43,7 @@
     },
     "discharge" : {
       "duration" : 0.5,
-      "armRotation" : -10,
+      "armRotation" : -20,
       "weaponRotation" : -50,
       "twoHanded" : true,
 
