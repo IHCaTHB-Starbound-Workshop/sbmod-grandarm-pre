@@ -11,5 +11,5 @@ For more, click the MEGATHREAD link above.",
   "includes" : ["QSARM.IHC","FrackinUniverse"],
   "name" : "GRANDARMPRE.IHC",
   "requires" : [],
-  "version" : "0.1"
+  "version" : "0.2"
 }
