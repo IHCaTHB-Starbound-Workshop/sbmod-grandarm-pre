@@ -29,13 +29,13 @@
 //    "nameGenerator" : "/items/active/weapons/melee/hammer/hammernames.config:nameGen",
     "animationParts" : {
       "blade" : {
-        "path" : "/items/active/weapons/melee/hammer/handle/<variant>.png?flipy",
+        "path" : "/items/active/weapons/melee/hammer/handle/<variant>.png?crop=2;0;24;64?flipy",
         "variants" : 54,
         "paletteSwap" : true
       },
       "handle" : {
-        "path" : "/items/active/weapons/melee/broadsword/handle/<variant>.png",
-        "variants" : 35,
+        "path" : "/items/active/weapons/melee/dagger/handle/<variant>.png?crop=0;0;24;42",
+        "variants" : 31,
         "paletteSwap" : true
       }
     },
