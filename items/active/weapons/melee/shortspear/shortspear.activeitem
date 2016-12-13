@@ -20,12 +20,26 @@
 
   "aimOffset" : -1.0,
 
-  "primaryAbilityType" : "shortspearstab",
+  "primaryAbilityType" : "spearstab",
   "primaryAbility" : {
     "fireTime" : [0.83, 1.11],
     "baseDps" : [9, 10],
     "damageConfig" : {
       "knockbackRange" : [25, 35]
+    },
+    "stances" : {
+      "windup" : {
+        "duration" : 0.05,
+        "twoHanded" : false,
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "twoHanded" : false
+      },
+      "hold" : {
+        "twoHanded" : false
+      }
     }
   },
   "fireSounds" : [ "/sfx/melee/swing_spear.ogg" ],

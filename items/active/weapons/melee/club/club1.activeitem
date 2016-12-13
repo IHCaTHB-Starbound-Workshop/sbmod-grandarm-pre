@@ -17,10 +17,61 @@
 
   "elementalType" : "physical",
 
-  "primaryAbilityType" : "clubsmash",
+  "primaryAbilityType" : "axecleave",
   "primaryAbility" : {
     "fireTime" : [1.0, 1.2],
-    "baseDps" : [11, 12]
+    "baseDps" : [11, 12],
+    "damageConfig" : {
+      "damageSourceKind" : "hammer",
+      "statusEffects" : [ ],
+      "knockbackMode" : "facing",
+      "knockback" : 20
+    },
+    "smashMomentum" : [0, -20],
+    "stances" : {
+      "idle" : {
+        "weaponRotation" : -10,
+        "allowRotate" : false,
+        "allowFlip" : true,
+        "weaponOffset" : [0,0]
+      },
+      "windup" : {
+        "weaponOffset" : [0,0],
+        "twoHanded" : true,
+        "allowRotate" : false,
+
+        "bounceTime" : 0.2,
+        "bounceWeaponAngle" : [
+          [1.0, "linear", 0, 0]
+        ],
+        "bounceArmAngle" : [
+          [1.0, "linear", 40, 50]
+        ],
+
+        "weaponAngle" : [
+          [1.0, "linear", 0, 0]
+        ],
+        "armAngle" : [
+          [1.0, "sin", -90, 40]
+        ]
+      },
+      "preslash" : {
+        "weaponOffset" : [0,0],
+        "duration" : 0.025,
+        "armRotation" : 55,
+        "weaponRotation" : -45,
+        "twoHanded" : true,
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "fire" : {
+        "weaponOffset" : [0,-0],
+        "weaponRotation" : -55,
+        "twoHanded" : true,
+        "smashTimer" : 0.6,
+        "allowFlip" : false
+      }
+    }
   },
   "fireSounds" : [ "/sfx/melee/swing_hammer.ogg" ],
 

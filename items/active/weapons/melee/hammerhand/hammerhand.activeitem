@@ -18,10 +18,41 @@
 
   "elementalType" : "physical",
 
-  "primaryAbilityType" : "hammerhand",
+  "primaryAbilityType" : "hammersmash",
   "primaryAbility" : {
     "fireTime" : [1.0, 1.2],
-    "baseDps" : [12, 13]
+    "baseDps" : [12, 13],
+    "smashMomentum" : [0, -20],
+    "stances" : {
+      "idle" : {
+        "weaponRotation" : -90,
+        "weaponOffset" : [0.0625, 0.6875]
+      },
+      "windup" : {
+        "weaponRotation" : -90,
+        "twoHanded" : false,
+        "weaponOffset" : [0.0625, 0.6875],
+
+        "bounceWeaponAngle" : [
+          [1.0, "linear", -90, -90]
+        ],
+
+        "weaponAngle" : [
+          [1.0, "sin", -90, -90]
+        ]
+      },
+      "preslash" : {
+        "weaponRotation" : -90,
+        "twoHanded" : false,
+        "weaponOffset" : [0.0625, 0.6875]
+      },
+      "fire" : {
+        "weaponRotation" : -90,
+        "twoHanded" : false,
+        "smashTimer" : 0.8,
+        "weaponOffset" : [0.0625, 0.6875]
+      }
+    }
   },
   "fireSounds" : [ "/sfx/melee/swing_hammer.ogg" ],
 

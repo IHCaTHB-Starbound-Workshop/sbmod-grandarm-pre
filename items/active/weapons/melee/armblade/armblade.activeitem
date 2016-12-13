@@ -19,10 +19,37 @@
 
   "elementalType" : "physical",
 
-  "primaryAbilityType" : "armblade",
+  "primaryAbilityType" : "shortswordcombo",
   "primaryAbility" : {
     "fireTime" : [0.5, 0.67],
-    "baseDps" : [6, 7]
+    "baseDps" : [6, 7],
+    "stances" : {
+      "idle" : {
+        "weaponRotation" : -90,
+        "weaponOffset" : [0.125, 1.25]
+      },
+      "windup1" : {
+        "weaponRotation" : -90,
+        "weaponOffset" : [0.125, 1.25]
+      },
+      "fire1" : {
+        "armRotation" : -20,
+        "weaponRotation" : -90,
+        "weaponOffset" : [0.125, 1.25]
+      },
+      "wait1" : {
+        "weaponRotation" : -90,
+        "weaponOffset" : [0.125, 1.25]
+      },
+      "windup2" : {
+        "weaponRotation" : -90,
+        "weaponOffset" : [0.125, 1.25]
+      },
+      "fire2" : {
+        "weaponRotation" : -90,
+        "weaponOffset" : [0.125, 1.25]
+      }
+    }
   },
 
   "builder" : "/items/buildscripts/buildweapon.lua",
