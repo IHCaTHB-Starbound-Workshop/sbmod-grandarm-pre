@@ -10,9 +10,71 @@
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","quarterstaff"],
 
-  "animation" : "qs.animation",
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
   "animationParts" : { },
-  "animationCustom" : { },
+  "animationCustom" : {
+   "animatedParts" : {
+    "parts" : {
+      "crown" : {
+        "properties" : {
+          "zLevel" : 3,
+          "centered" : true,
+          "image" : "<partImage><paletteSwaps>",
+          "offset" : [0.0, 0.0],
+          "transformationGroups" : ["weapon"]
+        }
+      },
+      "crown0" : {
+        "properties" : {
+          "zLevel" : 4,
+          "centered" : true,
+          "image" : "<partImage><paletteSwaps>",
+          "offset" : [0.0, 0.0],
+          "transformationGroups" : ["weapon"]
+        }
+      },
+      "crown1" : {
+        "properties" : {
+          "zLevel" : 5,
+          "centered" : true,
+          "image" : "<partImage><paletteSwaps>",
+          "offset" : [0.0, 0.0],
+          "transformationGroups" : ["weapon"]
+        }
+      },
+      "blade" : {
+        "properties" : {
+          "zLevel" : 2
+        }
+      },
+      "handle" : {
+        "properties" : {
+          "zLevel" : 1
+        }
+      },
+      "handle0" : {
+        "properties" : {
+          "zLevel" : 0,
+          "centered" : true,
+          "image" : "<partImage><paletteSwaps>",
+          "offset" : [0.0, 0.0],
+          "transformationGroups" : ["weapon"]
+        }
+      },
+      "swoosh" : {
+        "partStates" : {
+          "swoosh" : {
+            "fire" : {
+              "properties" : {
+                "image" : "/items/active/weapons/melee/quarterstaff/swoosh/<elementalType>swoosh.png:<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+   }
+  },
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 

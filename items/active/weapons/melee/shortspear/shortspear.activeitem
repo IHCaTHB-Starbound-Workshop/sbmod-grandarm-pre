@@ -10,9 +10,28 @@
   "twoHanded" : false,
   "itemTags" : ["weapon","melee","spear"],
 
-  "animation" : "shortspear.animation",
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
   "animationParts" : { },
-  "animationCustom" : { },
+  "animationCustom" : {
+   "animatedParts" : {
+    "parts" : {
+      "swoosh" : {
+        "properties" : {
+          "offset" : [1.0, 0]
+        },
+        "partStates" : {
+          "swoosh" : {
+            "fire" : {
+              "properties" : {
+                "damageArea" : [[-3.5, 0], [-1, 1], [1, 1], [4, 0], [1, -1], [-1, -1]]
+              }
+            }
+          }
+        }
+      }
+    }
+   }
+  },
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 

@@ -10,7 +10,7 @@
   "twoHanded" : false,
   "itemTags" : ["weapon","melee","shortsword"],
 
-  "animation" : "comboknife.animation",
+  "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
   "animationParts" : { },
   "animationCustom" : { },
 
