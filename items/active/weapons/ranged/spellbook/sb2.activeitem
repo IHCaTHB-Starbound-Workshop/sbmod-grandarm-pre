@@ -11,14 +11,31 @@
   "itemTags" : ["weapon","ranged","spell"],
 
   "animation" : "/items/active/weapons/wand/generated/generatedwand.animation",
-
+  "altAbility" : {
+   "stances" : {
+    "windup" : {
+      "armRotation" : 0,
+      "endArmRotation" : 0,
+      "weaponRotation" : -40,
+      "endWeaponRotation" : -40,
+      "twoHanded" : true,
+      "weaponOffset" : [0, 0]
+    },
+    "fire" : {
+      "armRotation" : -20,
+      "weaponRotation" : -50,
+      "twoHanded" : true,
+      "weaponOffset" : [0, 0]
+    }
+   }
+  },
   "scripts" : ["/items/active/weapons/staff/staff.lua"],
   "stances" : {
     "idle" : {
       "armRotation" : -90,
       "weaponRotation" : 0,
       "twoHanded" : false,
-
+      "weaponOffset" : [0, 0],
       "allowRotate" : false,
       "allowFlip" : true
     },
@@ -27,7 +44,7 @@
       "armRotation" : 0,
       "weaponRotation" : -40,
       "twoHanded" : true,
-
+      "weaponOffset" : [0, 0],
       "allowRotate" : false,
       "allowFlip" : true
     },
@@ -35,7 +52,7 @@
       "armRotation" : 0,
       "weaponRotation" : -50,
       "twoHanded" : true,
-
+      "weaponOffset" : [0, 0],
       "allowRotate" : false,
       "allowFlip" : true
     },
@@ -44,7 +61,7 @@
       "armRotation" : -20,
       "weaponRotation" : -50,
       "twoHanded" : true,
-
+      "weaponOffset" : [0, 0],
       "allowRotate" : false,
       "allowFlip" : true
     },
@@ -53,7 +70,7 @@
       "armRotation" : -45,
       "weaponRotation" : 0,
       "twoHanded" : true,
-
+      "weaponOffset" : [0, 0],
       "allowRotate" : false,
       "allowFlip" : true
     }
