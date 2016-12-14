@@ -37,7 +37,7 @@
 
   "elementalType" : "physical",
 
-  "aimOffset" : -1.0,
+  "aimOffset" : 0,
 
   "primaryAbilityType" : "spearstab",
   "primaryAbility" : {
