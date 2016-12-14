@@ -10,7 +10,7 @@
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","broadsword"],
 
-  "animation" : "greatsword.animation",
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
   "animationParts" : { },
   "animationCustom" : { },
 
