@@ -10,7 +10,7 @@
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","axe"],
 
-  "animation" : "halberd.animation",
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
   "animationParts" : { },
   "animationCustom" : { },
 
