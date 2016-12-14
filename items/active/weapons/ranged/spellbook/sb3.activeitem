@@ -1,10 +1,10 @@
 {
-  "itemName" : "sb0",
+  "itemName" : "sb3",
   "price" : 900,
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "sb0",
-  "shortdescription" : "sb0",
+  "description" : "sb3",
+  "shortdescription" : "sb3",
   "tooltipKind" : "staff",
   "category" : "spell",
   "twoHanded" : true,
@@ -31,7 +31,7 @@
       "allowFlip" : true
     },
     "charged" : {
-      "armRotation" : -10,
+      "armRotation" : 0,
       "weaponRotation" : -50,
       "twoHanded" : true,
 
@@ -41,7 +41,7 @@
     "discharge" : {
       "duration" : 0.5,
       "armRotation" : -20,
-      "weaponRotation" : -60,
+      "weaponRotation" : -50,
       "twoHanded" : true,
 
       "allowRotate" : false,
@@ -50,7 +50,7 @@
     "cooldown" : {
       "duration" : 0.5,
       "armRotation" : -45,
-      "weaponRotation" : -45,
+      "weaponRotation" : 0,
       "twoHanded" : true,
 
       "allowRotate" : false,

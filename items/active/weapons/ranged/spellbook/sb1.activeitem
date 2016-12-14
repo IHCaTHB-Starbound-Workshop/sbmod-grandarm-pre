@@ -1,10 +1,10 @@
 {
-  "itemName" : "sb0",
+  "itemName" : "sb1",
   "price" : 900,
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "sb0",
-  "shortdescription" : "sb0",
+  "description" : "sb1",
+  "shortdescription" : "sb1",
   "tooltipKind" : "staff",
   "category" : "spell",
   "twoHanded" : true,
@@ -18,6 +18,7 @@
       "armRotation" : -90,
       "weaponRotation" : 0,
       "twoHanded" : false,
+
       "allowRotate" : false,
       "allowFlip" : true
     },
@@ -31,7 +32,7 @@
       "allowFlip" : true
     },
     "charged" : {
-      "armRotation" : -10,
+      "armRotation" : 0,
       "weaponRotation" : -50,
       "twoHanded" : true,
 
@@ -41,7 +42,7 @@
     "discharge" : {
       "duration" : 0.5,
       "armRotation" : -20,
-      "weaponRotation" : -60,
+      "weaponRotation" : -50,
       "twoHanded" : true,
 
       "allowRotate" : false,
@@ -50,7 +51,7 @@
     "cooldown" : {
       "duration" : 0.5,
       "armRotation" : -45,
-      "weaponRotation" : -45,
+      "weaponRotation" : 0,
       "twoHanded" : true,
 
       "allowRotate" : false,
@@ -63,30 +64,12 @@
   "builderConfig" : [{
 //    "nameGenerator" : "/items/active/weapons/wand/generated/wandnames.config:nameGen",
     "elementalType" : [
-      "fire",
-      "ice",
-      "electric",
-      "poison"
+      "electric"
     ],
     "elementalConfig" : {
-      "fire" : {
-        "animationCustom" : { "lights" : { "glow" : {
-          "color" : [140, 40, 20]
-        }}}
-      },
-      "ice" : {
-        "animationCustom" : { "lights" : { "glow" : {
-          "color" : [20, 80, 140]
-        }}}
-      },
       "electric" : {
         "animationCustom" : { "lights" : { "glow" : {
           "color" : [80, 20, 140]
-        }}}
-      },
-      "poison" : {
-        "animationCustom" : { "lights" : { "glow" : {
-          "color" : [20, 140, 20]
         }}}
       }
     },
@@ -98,7 +81,8 @@
       }
     },
     "palette" : "/items/active/weapons/colors/melee.weaponcolors",
-    "primaryAbilities" : ["elementrain", "elementswarm", "elementbouncer", "elementorb", "elementportal"],
+    "primaryAbilities" : ["magicnothing"],
+    "altAbilities" : ["healingzone", "lowgravzone", "slowzone", "pushzone", "pullzone", "energyzone"],
     "iconDrawables" : [ "handle" ]
   }]
 }

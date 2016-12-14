@@ -1,10 +1,10 @@
 {
-  "itemName" : "sb0",
+  "itemName" : "sb2",
   "price" : 900,
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "sb0",
-  "shortdescription" : "sb0",
+  "description" : "sb2",
+  "shortdescription" : "sb2",
   "tooltipKind" : "staff",
   "category" : "spell",
   "twoHanded" : true,
@@ -18,6 +18,7 @@
       "armRotation" : -90,
       "weaponRotation" : 0,
       "twoHanded" : false,
+
       "allowRotate" : false,
       "allowFlip" : true
     },
@@ -31,7 +32,7 @@
       "allowFlip" : true
     },
     "charged" : {
-      "armRotation" : -10,
+      "armRotation" : 0,
       "weaponRotation" : -50,
       "twoHanded" : true,
 
@@ -41,7 +42,7 @@
     "discharge" : {
       "duration" : 0.5,
       "armRotation" : -20,
-      "weaponRotation" : -60,
+      "weaponRotation" : -50,
       "twoHanded" : true,
 
       "allowRotate" : false,
@@ -50,7 +51,7 @@
     "cooldown" : {
       "duration" : 0.5,
       "armRotation" : -45,
-      "weaponRotation" : -45,
+      "weaponRotation" : 0,
       "twoHanded" : true,
 
       "allowRotate" : false,
@@ -58,6 +59,8 @@
     }
   },
   "fireSounds" : [ "/sfx/melee/swing_spear.ogg" ],
+
+
 
   "builder" : "/items/buildscripts/buildweapon.lua",
   "builderConfig" : [{
@@ -98,7 +101,8 @@
       }
     },
     "palette" : "/items/active/weapons/colors/melee.weaponcolors",
-    "primaryAbilities" : ["elementrain", "elementswarm", "elementbouncer", "elementorb", "elementportal"],
+    "primaryAbilities" : ["magicnothing"],
+    "altAbilities" : ["shockwave", "elementalaura", "elementalpillar"],
     "iconDrawables" : [ "handle" ]
   }]
 }

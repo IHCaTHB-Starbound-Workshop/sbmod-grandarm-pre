@@ -1,0 +1,16 @@
+{
+  "ability" : {
+    "name" : "Magic Nothing",
+    "type" : "magicnothing",
+    "scripts" : ["/items/active/weapons/staff/abilities/controlprojectile/controlprojectile.lua"],
+    "class" : "ControlProjectile",
+
+    "energyCost" : 1,
+
+    "maxCastRange" : 1,
+
+    "damageConfig" : {
+      "damageSourceKind" : "<elementalType>plasma"
+    }
+  }
+}

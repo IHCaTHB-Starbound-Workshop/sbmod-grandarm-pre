@@ -1,0 +1,7 @@
+[
+  {
+    "op" : "add",
+    "path" : "/magicnothing",
+    "value" : "/items/active/weapons/ranged/abilities/magicnothing.weaponability"
+  }
+]
