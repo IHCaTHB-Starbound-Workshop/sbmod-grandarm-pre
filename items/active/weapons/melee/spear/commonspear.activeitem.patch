@@ -1,0 +1,32 @@
+[
+  {
+    "op": "copy",
+    "path": "/builderConfig/1",
+    "from": "/builderConfig/0"
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/1/animationParts/blade/path",
+    "value": "/items/active/weapons/melee/partisan/mask.png?blendmult=/items/active/weapons/melee/shortsword/blade/<variant>.png;0;-94?blendmult=/items/active/weapons/melee/partisan/masktrans.png;0;106?blendmult=/items/active/weapons/melee/partisan/masktrans.png;0;-158" //from partisan ss
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/1/animationParts/blade/variants",
+    "value": 39
+  },
+  {
+    "op": "copy",
+    "path": "/builderConfig/1",
+    "from": "/builderConfig/0"
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/1/animationParts/blade/path",
+    "value": "/items/active/weapons/melee/partisan/mask.png?blendmult=/items/active/weapons/melee/dagger/blade/<variant>.png;0;-94?blendmult=/items/active/weapons/melee/partisan/masktrans.png;0;106?blendmult=/items/active/weapons/melee/partisan/masktrans.png;0;-158" //from partisan d
+  },
+  {
+    "op": "replace",
+    "path": "/builderConfig/1/animationParts/blade/variants",
+    "value": 17
+  }
+]

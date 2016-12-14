@@ -10,7 +10,7 @@
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","spear"],
 
-  "animation" : "partisan.animation",
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
   "animationParts" : { },
   "animationCustom" : { },
 
