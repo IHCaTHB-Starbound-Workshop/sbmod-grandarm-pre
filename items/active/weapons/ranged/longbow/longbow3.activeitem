@@ -10,7 +10,7 @@
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","bow"],
 
-  "animation" : "longbow.animation",
+  "animation" : "/items/active/weapons/bow/bow.animation",
   "animationParts" : { },
   "animationCustom" : {
    "animatedParts" : {
