@@ -106,6 +106,6 @@
       "superspinslash"
     ],
     "palette" : "/items/active/weapons/colors/melee.weaponcolors",
-    "iconDrawables" : [  "handle" , "blade0" , "blade" ]
+    "iconDrawables" : [  "handle" , "blade0" , "blade", "blade1" ]
   }]
 }
