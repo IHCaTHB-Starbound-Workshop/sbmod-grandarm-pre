@@ -55,7 +55,7 @@
 //    "nameGenerator" : "/items/active/weapons/melee/broadsword/swordnames.config:nameGen",
     "animationParts" : {
       "blade" : {
-        "path" : "/items/active/weapons/melee/mask/mask.png?blendmult=/items/active/weapons/melee/broadsword/blade/<variant>.png;0;-136?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;64?crop=0;108;24;200",
+        "path" : "/items/active/weapons/melee/mask/mask.png?blendmult=/items/active/weapons/melee/broadsword/blade/<variant>.png;0;-128?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;64?crop=0;100;24;192",
         "variants" : 46,
         "paletteSwap" : true
       },

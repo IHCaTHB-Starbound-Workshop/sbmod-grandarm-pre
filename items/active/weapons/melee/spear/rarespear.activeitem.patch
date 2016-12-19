@@ -7,7 +7,7 @@
   {
     "op": "replace",
     "path": "/builderConfig/1/animationParts/blade/path",
-    "value": "/items/active/weapons/melee/partisan/mask.png?blendmult=/items/active/weapons/melee/shortsword/blade/<variant>.png;0;-94?blendmult=/items/active/weapons/melee/partisan/masktrans.png;0;106?blendmult=/items/active/weapons/melee/partisan/masktrans.png;0;-158" //from partisan ss
+    "value": "/items/active/weapons/melee/partisan/mask.png?blendmult=/items/active/weapons/melee/shortsword/blade/<variant>.png;0;-128?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;64?crop=0;76;24;192" //from partisan ss
   },
   {
     "op": "replace",
@@ -22,7 +22,7 @@
   {
     "op": "replace",
     "path": "/builderConfig/1/animationParts/blade/path",
-    "value": "/items/active/weapons/melee/partisan/mask.png?blendmult=/items/active/weapons/melee/dagger/blade/<variant>.png;0;-94?blendmult=/items/active/weapons/melee/partisan/masktrans.png;0;106?blendmult=/items/active/weapons/melee/partisan/masktrans.png;0;-158" //from partisan d
+    "value": "/items/active/weapons/melee/partisan/mask.png?blendmult=/items/active/weapons/melee/dagger/blade/<variant>.png;0;-128?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;64?crop=0;76;24;192" //from partisan d
   },
   {
     "op": "replace",
