@@ -1,0 +1,121 @@
+{
+  "itemName" : "qs10a",
+  "price" : 900,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "qs10a",
+  "shortdescription" : "qs10a",
+  "tooltipKind" : "sword",
+  "category" : "quarterstaff",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","quarterstaff"],
+
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
+  "animationParts" : { },
+  "animationCustom" : {
+   "animatedParts" : {
+    "parts" : {
+      "crown" : {
+        "properties" : {
+          "zLevel" : 3,
+          "centered" : true,
+          "image" : "<partImage><paletteSwaps>",
+          "offset" : [0.0, 0.0],
+          "transformationGroups" : ["weapon"]
+        }
+      },
+      "crown0" : {
+        "properties" : {
+          "zLevel" : 4,
+          "centered" : true,
+          "image" : "<partImage><paletteSwaps>",
+          "offset" : [0.0, 0.0],
+          "transformationGroups" : ["weapon"]
+        }
+      },
+      "crown1" : {
+        "properties" : {
+          "zLevel" : 5,
+          "centered" : true,
+          "image" : "<partImage><paletteSwaps>",
+          "offset" : [0.0, 0.0],
+          "transformationGroups" : ["weapon"]
+        }
+      },
+      "blade" : {
+        "properties" : {
+          "zLevel" : 2
+        }
+      },
+      "handle" : {
+        "properties" : {
+          "zLevel" : 1
+        }
+      },
+      "handle0" : {
+        "properties" : {
+          "zLevel" : 0,
+          "centered" : true,
+          "image" : "<partImage><paletteSwaps>",
+          "offset" : [0.0, 0.0],
+          "transformationGroups" : ["weapon"]
+        }
+      },
+      "swoosh" : {
+        "partStates" : {
+          "swoosh" : {
+            "fire" : {
+              "properties" : {
+                "image" : "/items/active/weapons/melee/quarterstaff/swoosh/<elementalType>swoosh.png:<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+   }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "fireTime" : [0.66, 0.89],
+    "baseDps" : [7, 8],
+    "damageConfig" : {
+      "knockbackRange" : [35, 40]
+    }
+  },
+  "fireSounds" : [ "/sfx/melee/swing_spear.ogg" ],
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+//    "nameGenerator" : "qsnames.config:nameGen",
+    "animationParts" : {
+      "blade" : {
+        "path" : "/items/active/weapons/melee/spear/handle/<variant>.png?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;-32?flipy",
+        "variants" : 50,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "/items/active/weapons/melee/spear/handle/<variant>.png?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;-32",
+        "variants" : 50,
+        "paletteSwap" : true
+      }
+    },
+    "altAbilities" : [
+      "flurry",
+      "spearspin",
+      "uppercut",
+      "physicalshockwave",
+      "groundslam"
+    ],
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [ "handle", "blade" ]
+  }]
+}
+
