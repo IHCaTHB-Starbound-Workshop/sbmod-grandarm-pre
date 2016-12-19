@@ -47,6 +47,9 @@
       "knockbackRange" : [25, 35]
     },
     "stances" : {
+      "idle" : {
+        "weaponOffset" : [0, 1.25]
+      },
       "windup" : {
         "duration" : 0.05,
         "twoHanded" : false,
