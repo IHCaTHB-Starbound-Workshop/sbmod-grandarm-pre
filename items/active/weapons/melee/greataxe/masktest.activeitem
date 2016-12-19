@@ -1,0 +1,55 @@
+{
+  "itemName" : "masktest",
+  "price" : 900,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "masktest",
+  "shortdescription" : "masktest",
+  "tooltipKind" : "sword",
+  "category" : "axe",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","axe"],
+
+  "animation" : "/items/active/weapons/melee/axe/axe.animation",
+  "animationParts" : { },
+  "animationCustom" : {
+
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "axecleave",
+  "primaryAbility" : {
+    "fireTime" : [0.71, 0.9],
+    "baseDps" : [10, 11]
+  },
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+//    "nameGenerator" : "/items/active/weapons/melee/axe/axenames.config:nameGen",
+    "animationParts" : {
+      "blade" : {
+        "path" : "/items/active/weapons/melee/axe/blade/<variant>.png?flipx?overlay=/items/active/weapons/melee/axe/blade/<variant>.png?flipx",
+        "variants" : 59,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "/items/active/weapons/melee/axe/handle/<variant>.png?",
+        "variants" : 56,
+        "paletteSwap" : true
+      }
+    },
+    "altAbilities" : [
+      "bladecharge",
+      "downstab",
+      "parry",
+      "risingslash",
+      "spinslash",
+      "superspinslash"
+    ],
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [  "handle"  , "blade" ]
+  }]
+}

@@ -1,0 +1,86 @@
+{
+  "itemName" : "longbow4a",
+  "price" : 900,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "longbow4a",
+  "shortdescription" : "longbow4a",
+  "tooltipKind" : "bow",
+  "category" : "bow",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","bow"],
+
+  "animation" : "/items/active/weapons/bow/bow.animation",
+  "animationParts" : { },
+  "animationCustom" : {
+   "animatedParts" : {
+    "parts" : {
+      "bow" : {
+        "properties" : {
+          "zLevel" : 0,
+          "offset" : [0.5,0],
+          "centered" : true,
+          "image" : "<partImage>",
+          "transformationGroups" : ["weapon"]
+        }
+      },
+      "arrow" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 1,
+          "image" : "<partImage>:<drawFrame>",
+          "transformationGroups" : ["weapon"]
+        }
+      }
+    }
+   
+   },
+   "sounds" : {
+    "draw" : [ "/sfx/gun/bow_draw1.ogg", "/sfx/gun/bow_draw2.ogg", "/sfx/gun/bow_draw3.ogg" ],
+    "release" : [ "/sfx/gun/bow_loose.ogg" ],
+    "perfectRelease" : [ "/sfx/gun/bow_loose_perfect.ogg" ]
+   }
+  },
+
+  "elementalType" : "physical",
+
+  "scripts" : ["/items/active/weapons/bow/bow.lua"],
+
+  "primaryAbilityType" : "bowshot",
+  "primaryAbility" : {
+
+  },
+
+  "altAbilityType" : "zenshot",
+  "altAbility" : {
+
+  },
+  "fireSounds" : [ "/sfx/melee/swing_spear.ogg" ],
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+//    "nameGenerator" : "/items/active/weapons/melee/quarterstaff/qsnames.config:nameGen",
+    "animationParts" : {
+
+      "bow" : {
+        "path" : "/items/active/weapons/melee/axe/handle/<variant>.png?flipy",
+        "variants" : 56,
+        "paletteSwap" : true
+      },
+      "arrow" : {
+        "path" : "arrow/arrow.png",
+        "paletteSwap" : false
+      }
+    },
+    "altAbilities" : [
+      "flurry",
+      "spearspin",
+      "uppercut",
+      "physicalshockwave",
+      "groundslam"
+    ],
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [ "bow"]
+  }]
+}
+

@@ -1,10 +1,10 @@
 {
-  "itemName" : "greataxe10",
+  "itemName" : "greataxe10a",
   "price" : 900,
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "greataxe10",
-  "shortdescription" : "greataxe10",
+  "description" : "greataxe10a",
+  "shortdescription" : "greataxe10a",
   "tooltipKind" : "sword",
   "category" : "axe",
   "twoHanded" : true,
@@ -103,12 +103,12 @@
         "paletteSwap" : true
       },
       "blade0" : {
-        "path" : "/items/active/weapons/melee/mask/mask.png?blendmult=/items/active/weapons/melee/axe/blade/<variant>.png;0;-136?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;64?crop=0;118;24;200?flipx?replace;890900=00000000;e5323b=00000000;ff7060=00000000;0964a0=00000000;2992bc=00000000;60b9ff=00000000;676767=00000000?border=1;676767;00000000?border=1;b1b1b1;00000000",
+        "path" : "/items/active/weapons/melee/mask/mask.png?blendmult=/items/active/weapons/melee/axe/blade/<variant>.png?flipy?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;64?crop=0;132;24;200?flipx?replace;890900=00000000;e5323b=00000000;ff7060=00000000;0964a0=00000000;2992bc=00000000;60b9ff=00000000;676767=00000000?border=1;676767;00000000?border=1;b1b1b1;00000000",
         "variants" : 59,
         "paletteSwap" : true
       },
       "blade1" : {
-        "path" : "/items/active/weapons/melee/hammer/blade/<variant>.png?crop=8;0;16;64?replace;676767=00000000;b1b1b1=e5323b;e9e9e9=ff7060;890900=00000000?border=1;890900;00000000",
+        "path" : "/items/active/weapons/melee/hammer/blade/<variant>.png?crop=4;0;16;64?flipx?replace;676767=00000000;b1b1b1=e5323b;e9e9e9=ff7060;890900=00000000?border=1;890900;00000000",
         "variants" : 55,
         "paletteSwap" : true
       },
