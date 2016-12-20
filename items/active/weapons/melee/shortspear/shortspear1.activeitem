@@ -1,0 +1,87 @@
+{
+  "itemName" : "shortspear1",
+  "price" : 900,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "shortspear1",
+  "shortdescription" : "shortspear1",
+  "tooltipKind" : "sword",
+  "category" : "spear",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","spear"],
+
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
+  "animationParts" : { },
+  "animationCustom" : {
+   "animatedParts" : {
+    "parts" : {
+      "swoosh" : {
+        "properties" : {
+          "offset" : [1.0, 0]
+        },
+        "partStates" : {
+          "swoosh" : {
+            "fire" : {
+              "properties" : {
+                "damageArea" : [[-3.5, 0], [-1, 1], [1, 1], [4, 0], [1, -1], [-1, -1]]
+              }
+            }
+          }
+        }
+      }
+    }
+   }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : 0,
+
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "fireTime" : [0.83, 1.11],
+    "baseDps" : [9, 10],
+    "damageConfig" : {
+      "knockbackRange" : [25, 35]
+    },
+    "stances" : {
+      "idle" : {
+        "weaponOffset" : [0, 1.25]
+      },
+      "windup" : {
+        "duration" : 0.05,
+        "twoHanded" : false,
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "twoHanded" : false
+      },
+      "hold" : {
+        "twoHanded" : false
+      }
+    }
+  },
+  "fireSounds" : [ "/sfx/melee/swing_spear.ogg" ],
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+//    "nameGenerator" : "/items/active/weapons/melee/spear/spearnames.config:nameGen",
+    "animationParts" : {
+      "blade" : {
+        "path" : "/items/active/weapons/melee/spear/blade/<variant>.png?crop=0;24;24;64",
+        "variants" : 50,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "/items/active/weapons/melee/spear/handle/<variant>.png?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;-34",
+        "variants" : 50,
+        "paletteSwap" : true
+      }
+    },
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [ "handle", "blade" ]
+  }]
+}
