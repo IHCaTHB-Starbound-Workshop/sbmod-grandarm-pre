@@ -2,6 +2,6 @@
   {
     "op" : "add",
     "path" : "/magicnothing",
-    "value" : "/items/active/weapons/ranged/abilities/magicnothing.weaponability"
+    "value" : "/items/active/weapons/ranged/abilities/staff/magicnothing.weaponability"
   }
 ]

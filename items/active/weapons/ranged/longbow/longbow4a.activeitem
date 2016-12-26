@@ -63,7 +63,7 @@
     "animationParts" : {
 
       "bow" : {
-        "path" : "/items/active/weapons/melee/axe/handle/<variant>.png?flipy",
+        "path" : "/items/active/weapons/melee/axe/handle/<variant>.png?flipy?border=32;123456?replace;123456=ffffff?blendmult=/items/active/weapons/melee/axe/handle/<variant>.png;-32;-32",
         "variants" : 56,
         "paletteSwap" : true
       },
