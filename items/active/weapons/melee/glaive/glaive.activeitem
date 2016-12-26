@@ -1,0 +1,55 @@
+{
+  "itemName" : "glaive",
+  "price" : 900,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "glaive",
+  "shortdescription" : "glaive",
+  "tooltipKind" : "sword",
+  "category" : "spear",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear"],
+
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
+  "animationParts" : { },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "fireTime" : [0.83, 1.11],
+    "baseDps" : [9, 10],
+    "damageConfig" : {
+      "knockbackRange" : [25, 35]
+    }
+  },
+  "fireSounds" : [ "/sfx/melee/swing_spear.ogg" ],
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+//    "nameGenerator" : "/items/active/weapons/melee/spear/spearnames.config:nameGen",
+    "animationParts" : {
+      "blade" : {
+        "path" : "/items/active/weapons/melee/mask/mask.png?blendmult=/items/active/weapons/melee/broadsword/blade/<variant>.png;0;-128?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;64?crop=0;76;24;192",
+        "variants" : 46,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "/items/active/weapons/melee/spear/handle/<variant>.png",
+        "variants" : 50,
+        "paletteSwap" : true
+      }
+    },
+    "altAbilities" : [
+      "flurry",
+      "spearspin"
+    ],
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [ "handle", "blade" ]
+  }]
+}
