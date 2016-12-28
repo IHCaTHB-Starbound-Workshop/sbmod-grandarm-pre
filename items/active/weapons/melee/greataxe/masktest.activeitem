@@ -31,7 +31,7 @@
 //    "nameGenerator" : "/items/active/weapons/melee/axe/axenames.config:nameGen",
     "animationParts" : {
       "blade" : {
-        "path" : "/items/active/weapons/melee/axe/blade/<variant>.png?flipx?overlay=/items/active/weapons/melee/axe/blade/<variant>.png?flipx",
+        "path" : "/items/active/weapons/melee/axe/blade/<variant>.png?flipx?addmask=/items/active/weapons/melee/axe/blade/<variant>.png?flipx",
         "variants" : 59,
         "paletteSwap" : true
       },

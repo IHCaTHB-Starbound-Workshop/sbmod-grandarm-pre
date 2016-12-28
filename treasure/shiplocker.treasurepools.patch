@@ -44,37 +44,7 @@
     "path": "/starterTreasure/0/1/fill/-",
     "value": {
       "item": [
-        "commonclub",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
-        "club0",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
         "club1",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
-        "club2",
         1
       ]
     }
@@ -94,7 +64,7 @@
     "path": "/starterTreasure/0/1/fill/-",
     "value": {
       "item": [
-        "greataxe",
+        "glaive",
         1
       ]
     }
@@ -104,7 +74,7 @@
     "path": "/starterTreasure/0/1/fill/-",
     "value": {
       "item": [
-        "greataxe0",
+        "greataxe4a",
         1
       ]
     }
@@ -114,37 +84,7 @@
     "path": "/starterTreasure/0/1/fill/-",
     "value": {
       "item": [
-        "greataxe1",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
-        "greataxe2",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
-        "greataxe3",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
-        "greataxe4",
+        "greataxe4b",
         1
       ]
     }
@@ -164,7 +104,7 @@
     "path": "/starterTreasure/0/1/fill/-",
     "value": {
       "item": [
-        "greataxe6",
+        "greataxe5a",
         1
       ]
     }
@@ -184,7 +124,67 @@
     "path": "/starterTreasure/0/1/fill/-",
     "value": {
       "item": [
-        "greatsword",
+        "greataxe8",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "greataxe10",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "greataxe10a",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "greataxe10b",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "greataxe10c",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "masktest",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "greatsword1a",
         1
       ]
     }
@@ -314,6 +314,56 @@
     "path": "/starterTreasure/0/1/fill/-",
     "value": {
       "item": [
+        "mace4",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "mace4a",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "mace4b",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "mace5",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "mace5a",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
         "partisanbs",
         1
       ]
@@ -345,6 +395,26 @@
     "value": {
       "item": [
         "shortspear",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "shortspear0",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "shortspear1",
         1
       ]
     }
@@ -514,6 +584,66 @@
     "path": "/starterTreasure/0/1/fill/-",
     "value": {
       "item": [
+        "qs9",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "qs10",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "qs10a",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "ac1",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "ac2b",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "armcannon",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
         "longbow",
         1
       ]
@@ -564,6 +694,36 @@
     "path": "/starterTreasure/0/1/fill/-",
     "value": {
       "item": [
+        "longbow4",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "longbow4a",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "gsb",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
         "sb",
         1
       ]
@@ -575,6 +735,36 @@
     "value": {
       "item": [
         "sb0",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "sb1",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "sb2",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "sb3",
         1
       ]
     }

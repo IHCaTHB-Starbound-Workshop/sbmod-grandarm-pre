@@ -30,7 +30,7 @@
     "animationParts" : {
       "blade" : {
         "path" : "/items/active/weapons/melee/spear/blade/<variant>.png?crop=0;32;24;64",
-        "variants" : 40,
+        "variants" : 50,
         "paletteSwap" : true
       },
       "handle" : {
