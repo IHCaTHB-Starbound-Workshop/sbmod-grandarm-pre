@@ -1,10 +1,10 @@
 {
-  "itemName" : "mace1c",
+  "itemName" : "mace1d",
   "price" : 900,
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "mace1c",
-  "shortdescription" : "mace1c",
+  "description" : "mace1d",
+  "shortdescription" : "mace1d",
   "tooltipKind" : "sword",
   "category" : "hammer",
   "twoHanded" : false,
@@ -34,7 +34,7 @@
         "paletteSwap" : true
       },
       "blade" : {
-        "path" : "/items/active/weapons/melee/axe/blade/<variant>.png?blendmult=/items/active/weapons/melee/mask/transmask.png;-19;0?flipx?replace;676767=e5323b;b1b1b1=00000000;e9e9e9=ff7060;890900=00000000?border=1;890900;00000000",
+        "path" : "/items/active/weapons/melee/axe/blade/<variant>.png?flipx?replace;e5323b=00000000;890900=e5323b;676767=e5323b;b1b1b1=00000000;e9e9e9=ff7060?border=1;890900;00000000",
         "variants" : 59,
         "paletteSwap" : true
       }

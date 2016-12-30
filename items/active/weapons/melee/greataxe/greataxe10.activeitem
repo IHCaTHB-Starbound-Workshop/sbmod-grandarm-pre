@@ -98,12 +98,12 @@
 //    "nameGenerator" : "/items/active/weapons/melee/axe/axenames.config:nameGen",
     "animationParts" : {
       "blade" : {
-        "path" : "/items/active/weapons/melee/mask/mask.png?blendmult=/items/active/weapons/melee/axe/blade/<variant>.png;0;-128?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;64?crop=0;106;24;192?replace;890900=00000000;e5323b=00000000;ff7060=00000000;0964a0=00000000;2992bc=00000000;60b9ff=00000000;676767=00000000?border=1;676767;00000000?border=1;b1b1b1;00000000",
+        "path" : "/items/active/weapons/melee/mask/mask.png?blendmult=/items/active/weapons/melee/axe/blade/<variant>.png;-48;-128?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;64?blendmult=/items/active/weapons/melee/mask/masktrans.png;12;0?crop=42;112;72;192?replace;890900=00000000;e5323b=00000000;ff7060=00000000;0964a0=00000000;2992bc=00000000;60b9ff=00000000;676767=00000000?border=1;676767;00000000?border=1;b1b1b1;00000000",
         "variants" : 59,
         "paletteSwap" : true
       },
       "blade0" : {
-        "path" : "/items/active/weapons/melee/mask/mask.png?blendmult=/items/active/weapons/melee/axe/blade/<variant>.png;0;-128?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;64?crop=0;110;24;192?flipx?replace;890900=00000000;e5323b=00000000;ff7060=00000000;0964a0=00000000;2992bc=00000000;60b9ff=00000000;676767=00000000?border=1;676767;00000000?border=1;b1b1b1;00000000",
+        "path" : "/items/active/weapons/melee/mask/mask.png?blendmult=/items/active/weapons/melee/axe/blade/<variant>.png;-6;0?flipxy?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;64?blendmult=/items/active/weapons/melee/mask/masktrans.png;32;0?blendmult=/items/active/weapons/melee/mask/masktrans.png;-54;0?crop=42;126;72;192?replace;890900=00000000;e5323b=00000000;ff7060=00000000;0964a0=00000000;2992bc=00000000;60b9ff=00000000;676767=00000000?border=1;676767;00000000?border=1;b1b1b1;00000000",
         "variants" : 59,
         "paletteSwap" : true
       },

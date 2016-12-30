@@ -1,13 +1,13 @@
 {
-  "itemName" : "mace1c",
+  "itemName" : "mace7a",
   "price" : 900,
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "mace1c",
-  "shortdescription" : "mace1c",
+  "description" : "mace7a",
+  "shortdescription" : "mace7a",
   "tooltipKind" : "sword",
   "category" : "hammer",
-  "twoHanded" : false,
+  "twoHanded" : true,
   "itemTags" : ["weapon","melee","hammer"],
 
   "animation" : "/items/active/weapons/melee/axe/axe.animation",
@@ -17,7 +17,7 @@
 
   "elementalType" : "physical",
 
-  "primaryAbilityType" : "axecleave",
+  "primaryAbilityType" : "hammersmash",
   "primaryAbility" : {
     "fireTime" : [1.0, 1.2],
     "baseDps" : [11, 12]
@@ -29,17 +29,16 @@
 //    "nameGenerator" : "/items/active/weapons/melee/hammer/hammernames.config:nameGen",
     "animationParts" : {
       "handle" : {
-        "path" : "/items/active/weapons/melee/axe/handle/<variant>.png",
-        "variants" : 56,
+        "path" : "/items/active/weapons/melee/hammer/handle/<variant>.png",
+        "variants" : 54,
         "paletteSwap" : true
       },
       "blade" : {
-        "path" : "/items/active/weapons/melee/axe/blade/<variant>.png?blendmult=/items/active/weapons/melee/mask/transmask.png;-19;0?flipx?replace;676767=e5323b;b1b1b1=00000000;e9e9e9=ff7060;890900=00000000?border=1;890900;00000000",
-        "variants" : 59,
+        "path" : "/items/active/weapons/melee/hammer/blade/<variant>.png?replace;e5323b=00000000;890900=e5323b;676767=e5323b;b1b1b1=00000000;e9e9e9=ff7060?border=1;890900;00000000",
+        "variants" : 55,
         "paletteSwap" : true
       }
     },
-//e5323b
     "altAbilities" : [
       "uppercut",
       "physicalshockwave",

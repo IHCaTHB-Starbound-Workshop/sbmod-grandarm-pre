@@ -1,10 +1,10 @@
 {
-  "itemName" : "greataxe8",
+  "itemName" : "greataxe4b",
   "price" : 900,
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "greataxe8",
-  "shortdescription" : "greataxe8",
+  "description" : "greataxe4b",
+  "shortdescription" : "greataxe4b",
   "tooltipKind" : "sword",
   "category" : "axe",
   "twoHanded" : true,
@@ -70,32 +70,8 @@
 
   "primaryAbilityType" : "axecleave",
   "primaryAbility" : {
-    "fireTime" : [1.0, 1.2],
-    "baseDps" : [11, 12],
-    "smashMomentum" : [0, -10],
-    "stances" : {
-      "idle" : {
-        "allowRotate" : false,
-        "allowFlip" : true//,
-//        "weaponOffset" : [0,0]
-      },
-      "windup" : {
-//        "weaponOffset" : [0,0],
-        "twoHanded" : true,
-        "allowRotate" : false
-      },
-      "preslash" : {
-//        "weaponOffset" : [0,0],
-        "twoHanded" : true,
-        "allowRotate" : false,
-        "allowFlip" : false
-      },
-      "fire" : {
-//        "weaponOffset" : [0,0],
-        "twoHanded" : true,
-        "allowFlip" : false
-      }
-    }
+    "fireTime" : [0.71, 0.9],
+    "baseDps" : [10, 11]
   },
 
   "builder" : "/items/buildscripts/buildweapon.lua",
@@ -103,12 +79,12 @@
 //    "nameGenerator" : "/items/active/weapons/melee/axe/axenames.config:nameGen",
     "animationParts" : {
       "blade" : {
-        "path" : "/items/active/weapons/melee/axe/blade/<variant>.png?replace;890900=00000000;e5323b=00000000;ff7060=00000000;0964a0=00000000;2992bc=00000000;60b9ff=00000000?border=1;b1b1b1;00000000?border=1;676767;00000000",
+        "path" : "/items/active/weapons/melee/axe/blade/<variant>.png?blendmult=/items/active/weapons/melee/mask/masktrans.png;60;0?crop=0;0;24;60?replace;890900=00000000;e5323b=00000000;ff7060=00000000;0964a0=00000000;2992bc=00000000;60b9ff=00000000;b1b1b1=00000000?border=1;b1b1b1;00000000?border=1;e9e9e9;00000000?border=1;676767;00000000",
         "variants" : 59,
         "paletteSwap" : true
       },
       "blade0" : {
-        "path" : "/items/active/weapons/melee/axe/blade/<variant>.png?flipx?replace;890900=00000000;e5323b=00000000;ff7060=00000000;0964a0=00000000;2992bc=00000000;60b9ff=00000000?border=1;b1b1b1;00000000?border=1;676767;00000000",
+        "path" : "/items/active/weapons/melee/axe/blade/<variant>.png?blendmult=/items/active/weapons/melee/mask/masktrans.png;60;0?crop=0;0;24;60?flipx?replace;890900=00000000;e5323b=00000000;ff7060=00000000;0964a0=00000000;2992bc=00000000;60b9ff=00000000;b1b1b1=00000000?border=1;b1b1b1;00000000?border=1;e9e9e9;00000000?border=1;676767;00000000",
         "variants" : 59,
         "paletteSwap" : true
       },
