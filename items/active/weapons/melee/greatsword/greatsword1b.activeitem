@@ -1,0 +1,79 @@
+{
+  "itemName" : "greatsword1b",
+  "price" : 900,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "greatsword1b",
+  "shortdescription" : "greatsword1b",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : { },
+  "animationCustom" : {
+   "animatedParts" : {
+    "parts" : {
+      "swoosh" : {
+        "partStates" : {
+          "swoosh" : {
+            "fire" : {
+              "properties" : {
+                "offset" : [1.75, 2.5]
+              }
+            },
+            "fire2" : {
+              "properties" : {
+                "offset" : [6.75, 1.0]
+              }
+            },
+            "fire3" : {
+              "properties" : {
+                "offset" : [5.25, 0]
+              }
+            }
+          }
+        }
+      }
+    }
+   }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : [1.0, 1.2],
+    "baseDps" : [11, 12]
+  },
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+//    "nameGenerator" : "/items/active/weapons/melee/broadsword/swordnames.config:nameGen",
+    "animationParts" : {
+      "blade" : {
+        "path" : "/items/active/weapons/melee/mask/mask.png?blendmult=/items/active/weapons/melee/broadsword/blade/<variant>.png;0;-128?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;64?crop=0;100;24;192?replace;b1b1b1=00000000;676767=b1b1b1?border=1;676767;00000000",
+        "variants" : 46,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "/items/active/weapons/melee/hammer/handle/<variant>.png?crop=2;0;24;64",
+        "variants" : 54,
+        "paletteSwap" : true
+      }
+    },
+    "altAbilities" : [
+      "bladecharge",
+      "downstab",
+      "parry",
+      "risingslash",
+      "spinslash",
+      "superspinslash"
+    ],
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [ "blade" , "handle"]
+  }]
+}
