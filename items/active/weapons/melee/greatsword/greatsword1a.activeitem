@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "greatsword1a",
-  "shortdescription" : "greatsword1a",
+  "shortdescription" : "greatsword1a (try a,b&c)",
   "tooltipKind" : "sword",
   "category" : "broadsword",
   "twoHanded" : true,

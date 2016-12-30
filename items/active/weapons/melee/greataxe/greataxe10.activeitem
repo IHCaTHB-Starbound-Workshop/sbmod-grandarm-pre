@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "greataxe10",
-  "shortdescription" : "greataxe10",
+  "shortdescription" : "greataxe10 (try a&b)",
   "tooltipKind" : "sword",
   "category" : "axe",
   "twoHanded" : true,

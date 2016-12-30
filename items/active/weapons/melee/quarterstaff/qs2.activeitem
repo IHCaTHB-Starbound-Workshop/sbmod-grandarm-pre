@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "qs2",
-  "shortdescription" : "qs2",
+  "shortdescription" : "qs2 (try a,b&c)",
   "tooltipKind" : "sword",
   "category" : "quarterstaff",
   "twoHanded" : true,

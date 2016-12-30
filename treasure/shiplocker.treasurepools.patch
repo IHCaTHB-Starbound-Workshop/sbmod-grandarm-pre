@@ -74,66 +74,6 @@
     "path": "/starterTreasure/0/1/fill/-",
     "value": {
       "item": [
-        "greataxe4a",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
-        "greataxe4b",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
-        "greataxe5",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
-        "greataxe5a",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
-        "greataxe7",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
-        "greataxe8",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
         "greataxe10",
         1
       ]
@@ -144,27 +84,7 @@
     "path": "/starterTreasure/0/1/fill/-",
     "value": {
       "item": [
-        "greataxe10a",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
-        "greataxe10b",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
-        "greataxe10c",
+        "greataxe11",
         1
       ]
     }
@@ -254,87 +174,7 @@
     "path": "/starterTreasure/0/1/fill/-",
     "value": {
       "item": [
-        "mace0a",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
-        "mace0b",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
-        "mace1",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
-        "mace2",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
-        "mace3",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
-        "mace3a",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
-        "mace4",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
-        "mace4a",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
-        "mace4b",
+        "mace1a",
         1
       ]
     }
@@ -354,7 +194,17 @@
     "path": "/starterTreasure/0/1/fill/-",
     "value": {
       "item": [
-        "mace5a",
+        "mace6",
+        1
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/starterTreasure/0/1/fill/-",
+    "value": {
+      "item": [
+        "mace7",
         1
       ]
     }
@@ -444,36 +294,6 @@
     "path": "/starterTreasure/0/1/fill/-",
     "value": {
       "item": [
-        "qs1a",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
-        "qs1b",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
-        "qs1c",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
         "qs2",
         1
       ]
@@ -484,47 +304,7 @@
     "path": "/starterTreasure/0/1/fill/-",
     "value": {
       "item": [
-        "qs2a",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
-        "qs2b",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
-        "qs2c",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
         "qs3",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
-        "qs3a",
         1
       ]
     }
@@ -595,16 +375,6 @@
     "value": {
       "item": [
         "qs10",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
-        "qs10a",
         1
       ]
     }
@@ -685,36 +455,6 @@
     "value": {
       "item": [
         "longbow3",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
-        "longbow4",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
-        "longbow4a",
-        1
-      ]
-    }
-  },
-  {
-    "op": "add",
-    "path": "/starterTreasure/0/1/fill/-",
-    "value": {
-      "item": [
-        "gsb",
         1
       ]
     }

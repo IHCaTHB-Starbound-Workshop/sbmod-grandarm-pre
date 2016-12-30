@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "mace1a",
-  "shortdescription" : "mace1a",
+  "shortdescription" : "mace1a (try a,b,c&d)",
   "tooltipKind" : "sword",
   "category" : "hammer",
   "twoHanded" : false,

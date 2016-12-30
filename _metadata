@@ -4,12 +4,14 @@
 
 **This showcase version of the mod does not actually add them to random generation.
 
-Find one of each style in your shiplocker, the name will match the item id (if name is Common Xxx item id is commonxxx)
+Find one of each style in your shiplocker, the name will match the item id
+If name is Common Xxx item id is commonxxx
+If it says try a b c then there are variants for each letter listed
 
 For more, click the MEGATHREAD link above.",
   "friendlyName" : "Grand Armory Showcase",
   "includes" : ["QSARM.IHC","FrackinUniverse"],
   "name" : "GRANDARMPRE.IHC",
   "requires" : [],
-  "version" : "0.2"
+  "version" : "0.3"
 }
