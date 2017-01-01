@@ -97,12 +97,12 @@
 //    "nameGenerator" : "qsnames.config:nameGen",
     "animationParts" : {
       "blade" : {
-        "path" : "/items/active/weapons/melee/hammer/handle/<variant>.png?crop=2;0;24;64?flipy",
+        "path" : "/items/active/weapons/melee/hammer/handle/<variant>.png?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;-32?crop=2;0;24;64?flipy",
         "variants" : 54,
         "paletteSwap" : true
       },
       "handle" : {
-        "path" : "/items/active/weapons/melee/hammer/handle/<variant>.png?crop=2;0;24;64",
+        "path" : "/items/active/weapons/melee/hammer/handle/<variant>.png?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;-32?crop=2;0;24;64",
         "variants" : 54,
         "paletteSwap" : true
       }
