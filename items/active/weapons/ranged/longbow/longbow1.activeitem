@@ -99,7 +99,7 @@
         "paletteSwap" : true
       },
       "handle0" : {
-        "path" : "/items/active/weapons/melee/axe/blade/<variant>.png?crop=0;0;20;62?replace;676767=00000000;b1b1b1=00000000;e9e9e9=00000000",
+        "path" : "/items/active/weapons/melee/axe/blade/<variant>.png?crop=0;0;20;62?flipx?replace;676767=00000000;b1b1b1=00000000;e9e9e9=00000000",
         "variants" : 59,
         "paletteSwap" : true
       },

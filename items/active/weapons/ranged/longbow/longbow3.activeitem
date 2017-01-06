@@ -89,12 +89,12 @@
 //    "nameGenerator" : "/items/active/weapons/melee/quarterstaff/qsnames.config:nameGen",
     "animationParts" : {
       "bow0" : {
-        "path" : "/items/active/weapons/melee/axe/handle/<variant>.png?crop=0;0;24;56?flipy",
+        "path" : "/items/active/weapons/melee/axe/handle/<variant>.png?crop=0;0;24;50?flipy",
         "variants" : 56,
         "paletteSwap" : true
       },
       "bow" : {
-        "path" : "/items/active/weapons/melee/axe/handle/<variant>.png?crop=0;0;24;56",
+        "path" : "/items/active/weapons/melee/axe/handle/<variant>.png?crop=0;0;24;50",
         "variants" : 56,
         "paletteSwap" : true
       },

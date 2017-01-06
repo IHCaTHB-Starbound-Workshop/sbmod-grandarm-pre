@@ -12,22 +12,22 @@
 
   "animation" : "/items/active/weapons/wand/generated/generatedwand.animation",
   "altAbility" : {
-   "stances" : {
-    "windup" : {
-      "armRotation" : 0,
-      "endArmRotation" : 0,
-      "weaponRotation" : -40,
-      "endWeaponRotation" : -40,
-      "twoHanded" : true,
-      "weaponOffset" : [0, 0]
-    },
-    "fire" : {
-      "armRotation" : -20,
-      "weaponRotation" : -50,
-      "twoHanded" : true,
-      "weaponOffset" : [0, 0]
+    "stances" : {
+      "windup" : {
+        "armRotation" : 0,
+        "endArmRotation" : 0,
+        "weaponRotation" : -40,
+        "endWeaponRotation" : -40,
+        "twoHanded" : true,
+        "weaponOffset" : [0, 0]
+      },
+      "fire" : {
+        "armRotation" : -20,
+        "weaponRotation" : -50,
+        "twoHanded" : true,
+        "weaponOffset" : [0, 0]
+      }
     }
-   }
   },
   "scripts" : ["/items/active/weapons/staff/staff.lua"],
   "stances" : {
