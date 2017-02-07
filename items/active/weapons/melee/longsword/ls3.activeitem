@@ -1,10 +1,10 @@
 {
-  "itemName" : "ls",
+  "itemName" : "ls3",
   "price" : 900,
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "A powerful two-handed sword.",
-  "shortdescription" : "ls",
+  "shortdescription" : "ls3",
   "tooltipKind" : "sword",
   "category" : "broadsword",
   "twoHanded" : true,
@@ -29,7 +29,7 @@
 //    "nameGenerator" : "swordnames.config:nameGen",
     "animationParts" : {
       "blade" : {
-        "path" : "/items/active/weapons/melee/broadsword/blade/<variant>.png?blendmult=/items/active/weapons/melee/mask/masktrans.png;-12;0?blendmult=/items/active/weapons/melee/mask/masktrans.png;62;0?crop=0;0;22;64?replace;676767=b1b1b1?border=1;676767;00000000?flipx",
+        "path" : "/items/active/weapons/melee/broadsword/blade/<variant>.png?blendmult=/items/active/weapons/melee/mask/masktrans.png;-11;0?blendmult=/items/active/weapons/melee/mask/masktrans.png;62;0?crop=0;0;20;64?replace;676767=00000000?border=1;676767;00000000?flipx",
         "variants" : 46,
         "paletteSwap" : true
       },
