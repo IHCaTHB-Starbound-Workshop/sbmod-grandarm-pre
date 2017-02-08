@@ -1,0 +1,131 @@
+{
+  "itemName" : "hw1",
+  "price" : 250,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Now you can be a contender.",
+  "shortdescription" : "Glove",
+  "tooltipKind" : "fistweapon",
+  "category" : "fistWeapon",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","fistweapon"],
+
+
+  "animation" : "hw.animation",
+  "animationParts" : {
+    "swoosh" : "/items/active/weapons/fist/swoosh/physicalswoosh.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_dagger.ogg" ]
+    }
+  },
+  "scripts" : [ "/items/active/weapons/fist/fistweapon.lua" ],
+
+  "needsEdgeTrigger" : true,
+  "edgeTriggerGrace" : 0.1,
+
+  "comboSteps" : 3,
+  "comboTiming" : [0.2, 0.5],
+  "comboCooldown" : 0.3,
+  "comboFinisherSource" : "/items/active/weapons/fist/combofinishers/dashslash.combofinisher",
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/fist/punch.lua"],
+    "class" : "Punch",
+
+    "freezeTime" : 0.15,
+    "fireTime" : 0.2,
+    "baseDps" : 6.0,
+    "damageConfig" : {
+      "statusEffects" : [ ],
+      "damageSourceKind" : "fist",
+      "knockback" : [0, 15],
+      "timeoutGroup" : "primary",
+      "timeout" : 0.1
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 45,
+        "weaponRotationCenter" : [-1.0, 0.0],
+        "weaponOffset" : [-0.25, -0.575],
+
+        "allowRotate" : false,
+        "allowFlip" : true,
+
+        "frontArmFrame" : "run.2",
+        "backArmFrame" : "jump.3"
+      },
+      "windup" : {
+        "duration" : 0.05,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "weaponRotationCenter" : [-1.0, 0.0],
+        "weaponOffset" : [-0.625, -0.125],
+
+        "allowRotate" : false,
+        "allowFlip" : false,
+
+        "frontArmFrame" : "swimIdle.1",
+        "backArmFrame" : "swim.1"
+      },
+      "windup2" : {
+        "duration" : 0.05,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "weaponRotationCenter" : [-1.0, 0.0],
+        "weaponOffset" : [-0.75, -0.125],
+
+        "allowRotate" : false,
+        "allowFlip" : false,
+
+        "frontArmFrame" : "swimIdle.1",
+        "backArmFrame" : "swim.1",
+
+        "recoil" : true
+      },
+      "fire" : {
+        "duration" : 0.1,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "weaponRotationCenter" : [-1.0, 0.0],
+        "weaponOffset" : [0.125, -0.25],
+
+        "allowRotate" : false,
+        "allowFlip" : false,
+
+        "frontArmFrame" : "rotation",
+        "backArmFrame" : "rotation"
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildrandfist.lua",
+  "builderConfig" : [{
+    "nameGenerator" : "/items/active/weapons/melee/handwrap/fistweaponnames.config:nameGen",
+    "animationParts" : {
+      "weapon" : {
+        "path" : "/items/active/weapons/melee/hammer/blade/<variant>.png?crop=12;35;22;39?replace;676767=00000000;b1b1b1=e5323b;e9e9e9=ff7060;890900=00000000?border=1;890900;00000000",
+        "variants" : 55,
+        "paletteSwap" : true
+      }
+    },
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [ "weapon" ]
+  },
+  {
+    "nameGenerator" : "/items/active/weapons/melee/handwrap/fistweaponnames.config:nameGen",
+    "animationParts" : {
+      "weapon" : {
+        "path" : "/items/active/weapons/melee/axe/blade/<variant>.png?crop=12;28;22;32?replace;676767=00000000;b1b1b1=e5323b;e9e9e9=ff7060;890900=00000000?border=1;890900;00000000",
+        "variants" : 59,
+        "paletteSwap" : true
+      }
+    },
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [ "weapon" ]
+  }]
+}
