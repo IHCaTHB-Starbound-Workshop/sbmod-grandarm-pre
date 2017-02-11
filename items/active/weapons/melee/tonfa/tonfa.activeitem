@@ -1,10 +1,10 @@
 {
-  "itemName" : "horizh",
+  "itemName" : "tonfa",
   "price" : 600,
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "horizh",
-  "shortdescription" : "horizh",
+  "description" : "horiza",
+  "shortdescription" : "horiza",
   "tooltipKind" : "sword",
   "category" : "cane",
   "twoHanded" : false,
@@ -68,13 +68,13 @@
 //    "nameGenerator" : "canenames.config:nameGen",
     "animationParts" : {
       "blade" : {
-        "path" : "/items/active/weapons/wand/generated/handle/<variant>.png?crop=2;0;20;20?replace;1a1c51=0964a0;24232f=0964a0;871132=890900;642f00=890900;373737=676767;3d3d51=2992bc;b22042=e5323b;344495=2992bc;676f83=60b9ff;a46e06=890900;e35f5d=ff7060;7b7b7b=b1b1b1;5588d4=2992bc;b6b6b6=e9e9e9;e2c344=ff7060;96cbe7=60b9ff",
-        "variants" : 10,
+        "path" : "/items/active/weapons/melee/axe/blade/<variant>.png?crop=0;30;24;31?replace;676767=00000000;b1b1b1=e5323b;e9e9e9=ff7060;890900=00000000?border=1;890900;00000000?border=1;e5323b;00000000?border=1;e5323b;00000000?border=1;e5323b;00000000?border=1;e5323b;00000000?border=1;e5323b;00000000?border=1;e5323b;00000000?border=1;e5323b;00000000?crop=8;8;32;9?replace;890900=00000000?border=1;890900",
+        "variants" : 55,
         "paletteSwap" : true
       },
       "handle" : {
-        "path" : "/items/active/weapons/melee/hammer/blade/<variant>.png?crop=0;36;24;37?replace;676767=00000000;b1b1b1=e5323b;e9e9e9=ff7060;890900=00000000?border=1;890900;00000000?replace;e5232b=00000000?border=1;ff7060;00000000?border=1;e5323b;00000000?border=1;ff7060;00000000?border=1;ff7060;00000000?border=1;ff7060;00000000?border=1;ff7060;00000000?border=1;ff7060;00000000?crop=8;8;32;9?replace;e5323b;00000000?border=1;e5323b?crop=0;0;25;2?replace;890900=00000000?border=1;890900?crop=1;1;27;3",
-        "variants" : 55,
+        "path" : "/items/active/weapons/melee/dagger/handle/<variant>.png?crop=8;0;24;44",
+        "variants" : 20,
         "paletteSwap" : true
       }
     },
