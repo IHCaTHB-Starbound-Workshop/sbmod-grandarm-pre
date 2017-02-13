@@ -11,11 +11,21 @@
   "itemTags" : ["weapon","melee","fistweapon"],
 
 
-  "animation" : "hw.animation",
+  "animation" : "/items/active/weapons/fist/fistweapon.animation",
   "animationParts" : {
     "swoosh" : "/items/active/weapons/fist/swoosh/physicalswoosh.png"
   },
   "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "weapon" : {
+          "properties" : {
+            "image" : "<partImage>",
+            "offset" : [-0.5, 0.1875]
+          }
+        }
+      }
+    },
     "sounds" : {
       "fire" : [ "/sfx/melee/swing_dagger.ogg" ]
     }
