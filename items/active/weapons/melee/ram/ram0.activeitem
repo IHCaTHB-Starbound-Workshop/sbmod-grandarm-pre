@@ -1,5 +1,5 @@
 {
-  "itemName" : "ram",
+  "itemName" : "ram0",
   "price" : 1200,
   "maxStack" : 1,
   "rarity" : "Common",
@@ -8,13 +8,22 @@
   "category" : "hammer",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","hammer"],
-  "baseOffset": [-1,0],
+  "baseOffset": [-2,0],
 
   "animation" : "/items/active/weapons/melee/hammer/hammer.animation",
   "animationParts" : { },
   "animationCustom" : {
     "animatedParts" : {
       "parts" : {
+        "butt" : {
+          "properties" : {
+            "centered" : true,
+            "zLevel" : 1,
+            "image" : "<partImage><paletteSwaps><directives>",
+            "transformationGroups" : ["weapon"],
+            "rotationCenter" : [0, 0]
+          }
+        },
         "middle" : {
           "properties" : {
             "centered" : true,
@@ -116,8 +125,13 @@
   "builderConfig" : [{
     "nameGenerator" : "/items/active/weapons/melee/hammer/hammernames.config:nameGen",
     "animationParts" : {
-      "middle" : {
+      "butt" : {
         "path" : "/items/active/weapons/ranged/rocketlauncher/butt/<variant>.png?replace;404040=890900;606060=e5323b;808080=ff7060;871132=0964a0;b22042=2992bc;e35f5d=60b9ff",
+        "variants" : 20,
+        "paletteSwap" : true
+      },
+      "middle" : {
+        "path" : "/items/active/weapons/ranged/rocketlauncher/middle/<variant>.png?replace;404040=890900;606060=e5323b;808080=ff7060;871132=0964a0;b22042=2992bc;e35f5d=60b9ff",
         "variants" : 20,
         "paletteSwap" : true
       },
@@ -128,13 +142,13 @@
       },
       "muzzleFlash" : ""
     },
-    "gunParts" : [ "middle", "barrel"],
+    "gunParts" : ["butt", "middle", "barrel"],
     "altAbilities" : [
       "uppercut",
       "physicalshockwave",
       "groundslam"
     ],
     "palette" : "/items/active/weapons/colors/melee.weaponcolors",
-    "iconDrawables" : [ "middle", "barrel"]
+    "iconDrawables" : ["butt", "middle", "barrel"]
   }]
 }

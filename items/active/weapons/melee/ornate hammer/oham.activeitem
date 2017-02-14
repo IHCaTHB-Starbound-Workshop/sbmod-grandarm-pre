@@ -1,5 +1,5 @@
 {
-  "itemName" : "ram",
+  "itemName" : "oham",
   "price" : 1200,
   "maxStack" : 1,
   "rarity" : "Common",
@@ -8,7 +8,7 @@
   "category" : "hammer",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","hammer"],
-  "baseOffset": [-1,0],
+  "baseOffset": [0,0],
 
   "animation" : "/items/active/weapons/melee/hammer/hammer.animation",
   "animationParts" : { },
@@ -42,73 +42,10 @@
 
   "elementalType" : "physical",
 
-  "primaryAbilityType" : "axecleave",
+  "primaryAbilityType" : "hammersmash",
   "primaryAbility" : {
     "fireTime" : [1.0, 1.2],
-    "baseDps" : [12, 13],
-    "damageConfig" : {
-      "knockbackMode" : "facing",
-      "knockback" : 50
-    },
-    "smashMomentum" : 0,
-    "stances" : {
-      "idle" : {
-        "armRotation" : -90,
-        "weaponRotation" : 90,
-        "weaponOffset" : [0, 0],
-        "twoHanded" : true,
-        "allowRotate" : false,
-        "allowFlip" : true
-      },
-      "windup" : {
-        "duration" : 0.8,
-        "armRotation" : 90,
-        "weaponRotation" : 80,
-        "twoHanded" : true,
-        "weaponOffset" : [0, 0],
-
-        "allowRotate" : false,
-        "allowFlip" : true,
-
-        "bounceTime" : 0.2,
-        "bounceWeaponAngle" : [
-          [0.75, "linear", 110, 119],
-          [0.875, "sin", 119, 120 ],
-          [1.0, "cos", 119, 120]
-        ],
-        "bounceArmAngle" : [
-          [1.0, "linear", -145, -180]
-        ],
-
-        "weaponAngle" : [
-          [1.0, "linear", 70, 110]
-        ],
-        "armAngle" : [
-          [1.0, "sin", -90, -145]
-        ]
-      },
-      "preslash" : {
-        "duration" : 0.025,
-        "armRotation" : -140,
-        "weaponRotation" : 45,
-        "twoHanded" : true,
-        "weaponOffset" : [0, 0],
-
-        "allowRotate" : false,
-        "allowFlip" : false
-      },
-      "fire" : {
-        "duration" : 0.4,
-        "armRotation" : -35,
-        "weaponRotation" : 35,
-        "twoHanded" : true,
-        "smashTimer" : 1.5,
-        "weaponOffset" : [0, 0],
-
-        "allowRotate" : false,
-        "allowFlip" : false
-      }
-    }
+    "baseDps" : [12, 13]
   },
   "fireSounds" : [ "/sfx/melee/swing_hammer.ogg" ],
 
@@ -126,6 +63,11 @@
         "variants" : 20,
         "paletteSwap" : true
       },
+      "handle" : {
+        "path" : "/items/active/weapons/melee/hammer/handle/<variant>.png",
+        "variants" : 50,
+        "paletteSwap" : true
+      },
       "muzzleFlash" : ""
     },
     "gunParts" : [ "middle", "barrel"],
@@ -135,6 +77,6 @@
       "groundslam"
     ],
     "palette" : "/items/active/weapons/colors/melee.weaponcolors",
-    "iconDrawables" : [ "middle", "barrel"]
+    "iconDrawables" : [ "handle", "middle", "barrel"]
   }]
 }
