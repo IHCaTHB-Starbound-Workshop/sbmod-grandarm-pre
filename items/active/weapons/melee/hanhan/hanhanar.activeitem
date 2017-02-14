@@ -1,0 +1,140 @@
+{
+  "itemName" : "hanhanar",
+  "price" : 1200,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "The power to blow stuff up.",
+  "shortdescription" : "Common Rocket Launcher",
+  "category" : "hammer",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","hammer"],
+  "baseOffset": [-1,0],
+
+  "animation" : "/items/active/weapons/melee/hammer/hammer.animation",
+  "animationParts" : { },
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "middle" : {
+          "properties" : {
+            "centered" : true,
+            "zLevel" : 1,
+            "image" : "<partImage><paletteSwaps><directives>",
+            "transformationGroups" : ["weapon"],
+            "rotationCenter" : [0, 0]
+          }
+        },
+        "barrel" : {
+          "properties" : {
+            "centered" : true,
+            "zLevel" : 1,
+            "image" : "<partImage><paletteSwaps><directives>",
+            "transformationGroups" : ["weapon"],
+            "rotationCenter" : [0, 0],
+            "damageArea" : [[-1, 0.25], [-1, 1.5], [1.5, 1.75], [1.5, 0.0]]
+          }
+        }
+      }
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "axecleave",
+  "primaryAbility" : {
+    "fireTime" : [1.0, 1.2],
+    "baseDps" : [12, 13],
+    "damageConfig" : {
+      "knockbackMode" : "facing",
+      "knockback" : 50
+    },
+    "smashMomentum" : 0,
+    "stances" : {
+      "idle" : {
+        "armRotation" : -90,
+        "weaponRotation" : 90,
+        "weaponOffset" : [0, 0],
+        "twoHanded" : true,
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "windup" : {
+        "duration" : 0.8,
+        "armRotation" : 90,
+        "weaponRotation" : 80,
+        "twoHanded" : true,
+        "weaponOffset" : [0, 0],
+
+        "allowRotate" : false,
+        "allowFlip" : true,
+
+        "bounceTime" : 0.2,
+        "bounceWeaponAngle" : [
+          [0.75, "linear", 110, 119],
+          [0.875, "sin", 119, 120 ],
+          [1.0, "cos", 119, 120]
+        ],
+        "bounceArmAngle" : [
+          [1.0, "linear", -145, -180]
+        ],
+
+        "weaponAngle" : [
+          [1.0, "linear", 70, 110]
+        ],
+        "armAngle" : [
+          [1.0, "sin", -90, -145]
+        ]
+      },
+      "preslash" : {
+        "duration" : 0.025,
+        "armRotation" : -140,
+        "weaponRotation" : 45,
+        "twoHanded" : true,
+        "weaponOffset" : [0, 0],
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "fire" : {
+        "duration" : 0.4,
+        "armRotation" : -35,
+        "weaponRotation" : 35,
+        "twoHanded" : true,
+        "smashTimer" : 1.5,
+        "weaponOffset" : [0, 0],
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+  "fireSounds" : [ "/sfx/melee/swing_hammer.ogg" ],
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+    "nameGenerator" : "/items/active/weapons/melee/hammer/hammernames.config:nameGen",
+    "animationParts" : {
+      "middle" : {
+        "path" : "/items/active/weapons/ranged/assaultrifle/butt/<variant>.png?replace;404040=890900;606060=e5323b;808080=ff7060;871132=0964a0;b22042=2992bc;e35f5d=60b9ff",
+        "variants" : 20,
+        "paletteSwap" : true
+      },
+      "barrel" : {
+        "path" : "/items/active/weapons/ranged/assaultrifle/butt/<variant>.png?flipx?replace;404040=890900;606060=e5323b;808080=ff7060;871132=0964a0;b22042=2992bc;e35f5d=60b9ff",
+        "variants" : 20,
+        "paletteSwap" : true
+      },
+      "muzzleFlash" : ""
+    },
+    "gunParts" : [ "middle", "barrel"],
+    "altAbilities" : [
+      "uppercut",
+      "physicalshockwave",
+      "groundslam"
+    ],
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [ "middle", "barrel"]
+  }]
+}
