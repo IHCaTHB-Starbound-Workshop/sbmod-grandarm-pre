@@ -73,7 +73,8 @@
         "paletteSwap" : true
       },
       "handle" : {
-        "path" : "/items/active/weapons/melee/mask/mask.png?crop=0;0;72;64?setcolor=000000?blendscreen=/items/active/weapons/melee/hammer/blade/<variant>.png?blendscreen=/items/active/weapons/melee/hammer/blade/<variant>.png;-24;0?blendscreen=/items/active/weapons/melee/hammer/blade/<variant>.png;-48;0?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;-39?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;154?replace;890a02=e5323b;890900=e5323b;676767=ff7060;b1b1b1=e5323b;e9e9e9=ff7060;ffffff=ff7060?border=1;890900",
+        "path" : "/items/active/weapons/melee/mask/mask.png?crop=0;0;72;64?setcolor=000000?blendscreen=/items/active/weapons/melee/hammer/blade/<variant>.png?blendscreen=/items/active/weapons/melee/hammer/blade/<variant>.png;-24;0?blendscreen=/items/active/weapons/melee/hammer/blade/<variant>.png;-48;0?replace;770800=e5323b;890900=e5323b;cc2c34=e5323b;676767=ff7060;b1b1b1=e5323b;e9e9e9=ff7060;ffffff=ff7060?border=1;890900",
+//?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;-39?blendmult=/items/active/weapons/melee/mask/masktrans.png;0;154
         "variants" : 55,
         "paletteSwap" : true
       }

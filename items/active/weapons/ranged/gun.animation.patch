@@ -1,0 +1,19 @@
+[
+  {
+    "op": "add",
+    "path": "/animatedParts/parts/middle0",
+    "value": {
+      "properties": {
+        "centered": true,
+        "image": "<partImage><paletteSwaps>",
+        "offset": [
+          0,
+          0
+        ],
+        "transformationGroups": [
+          "weapon"
+        ]
+      }
+    }
+  }
+]
