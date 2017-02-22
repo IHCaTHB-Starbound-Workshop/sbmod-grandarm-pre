@@ -1,0 +1,135 @@
+{
+  "itemName" : "scythebs",
+  "price" : 600,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "scythebs",
+  "shortdescription" : "scythebs",
+  "tooltipKind" : "sword",
+  "category" : "cane",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","cane"],
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : { },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : 0.0,
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : [0.71, 0.9],
+    "baseDps" : [10, 11],
+    "stances" : {
+      "idle" : {
+        "armRotation" : -90,
+        "weaponRotation" : -10,
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "windup1" : {
+        "duration" : 0.1,
+        "armRotation" : 90,
+        "weaponRotation" : -10,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "preslash1" : {
+        "duration" : 0.025,
+        "armRotation" : 55,
+        "weaponRotation" : -45,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "fire1" : {
+        "duration" : 0.15,
+        "armRotation" : -45,
+        "weaponRotation" : -55,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "wait1" : {
+        "duration" : 0.2,
+        "armRotation" : -45,
+        "weaponRotation" : -55,
+        "allowRotate" : false,
+        "allowFlip" : true,
+        "twoHanded" : true
+      },
+      "windup2" : {
+        "duration" : 0.15,
+        "armRotation" : -15,
+        "weaponRotation" : -60,
+        "weaponOffset" : [0, 0],
+        "twoHanded" : true,
+        "allowFlip" : true,
+        "allowRotate" : false
+      },
+      "fire2" : {
+        "duration" : 0.2,
+        "armRotation" : -150,
+        "weaponRotation" : 55,
+        "weaponOffset" : [0, 0],
+        "twoHanded" : true,
+        "allowFlip" : true,
+        "allowRotate" : false
+      },
+      "wait2" : {
+        "duration" : 0.2,
+        "armRotation" : -150,
+        "weaponRotation" : 55,
+        "weaponOffset" : [0, 0],
+        "allowRotate" : false,
+        "allowFlip" : true,
+        "twoHanded" : true
+      },
+      "windup3" : {
+        "duration" : 0.15,
+        "armRotation" : -150,
+        "weaponRotation" : 55,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "fire3" : {
+        "duration" : 0.3,
+        "armRotation" : 0,
+        "weaponRotation" : -90,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+  "fireSounds" : [ "/sfx/melee/swing_dagger.ogg" ],
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+//    "nameGenerator" : "canenames.config:nameGen",
+    "animationParts" : {
+      "blade" : {
+        "path" : "/items/active/weapons/melee/mask/mask.png?blendmult=/items/active/weapons/melee/broadsword/blade/<variant>.png?blendmult=/items/active/weapons/melee/mask/masktrans.png;-11;147?replace;ffffff=00000000;676767=00000000?border=1;676767;00000000?addmask=/items/active/weapons/melee/broadsword/blade/<variant>.png;-1;-1?crop=0;0;66;60?flipxy",
+        "variants" : 20,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "/items/active/weapons/melee/mask/maskscreen.png?crop=0;0;48;64?blendscreen=/items/active/weapons/melee/hammer/blade/<variant>.png;-24;0?flipx?blendscreen=/items/active/weapons/melee/hammer/blade/<variant>.png;-24;0?replace;90180f=e5323b;e63e47=e5323b;ff7869=ff7060;707070=e5323b;b5b5b5=e5323b;eaeaea=ff7060;186da5=0964a0;3698C0=2992bc;69bdff=60b9ff;ffffff=123456?blendmult=/items/active/weapons/melee/mask/masktrans.png;-1;-39?blendmult=/items/active/weapons/melee/mask/masktrans.png;-1;154?blendscreen=/items/active/weapons/melee/mask/maskscreen.png;71;0?replace;90180f=00000000;e63e47=e5323b;ff7869=ff7060;707070=00000000;b5b5b5=e5323b;eaeaea=ff7060;186da5=0964a0;3698C0=2992bc;69bdff=60b9ff;123456=ff7060;204060=00000000?border=1;890900?crop=0;32;50;64?flipxy",
+        "variants" : 55,
+        "paletteSwap" : true
+      }
+    },
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [ "blade" , "handle" ]
+  }]
+}
