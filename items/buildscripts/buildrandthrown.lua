@@ -2,7 +2,6 @@ require "/scripts/util.lua"
 require "/scripts/vec2.lua"
 require "/scripts/versioningutils.lua"
 require "/scripts/staticrandom.lua"
-require "/items/buildscripts/abilities.lua"
 
 function build(directory, config, parameters, level, seed)
   local configParameter = function(keyName, defaultValue)
@@ -36,10 +35,6 @@ function build(directory, config, parameters, level, seed)
   if config.builderConfig then
     builderConfig = randomFromList(config.builderConfig, seed, "builderConfig")
   end
-
-  -- select, load and merge abilities
-  setupAbility(config, parameters, "alt", builderConfig, seed)
-  setupAbility(config, parameters, "primary", builderConfig, seed)
 
   -- elemental type
   if not parameters.elementalType and builderConfig.elementalType then
@@ -146,24 +141,9 @@ function build(directory, config, parameters, level, seed)
 
   -- populate tooltip fields
   config.tooltipFields = {}
-  local fireTime = parameters.primaryAbility.fireTime or config.primaryAbility.fireTime or 1.0
-  local baseDps = parameters.primaryAbility.baseDps or config.primaryAbility.baseDps or 0
-  local energyUsage = parameters.primaryAbility.energyUsage or config.primaryAbility.energyUsage or 0
   config.tooltipFields.levelLabel = util.round(configParameter("level", 1), 1)
-  config.tooltipFields.dpsLabel = util.round(baseDps * config.damageLevelMultiplier, 1)
-  config.tooltipFields.speedLabel = util.round(1 / fireTime, 1)
-  config.tooltipFields.damagePerShotLabel = util.round(baseDps * fireTime * config.damageLevelMultiplier, 1)
-  config.tooltipFields.energyPerShotLabel = util.round(energyUsage * fireTime, 1)
   if elementalType ~= "physical" then
     config.tooltipFields.damageKindImage = "/interface/elements/"..elementalType..".png"
-  end
-  if config.primaryAbility then
-    config.tooltipFields.primaryAbilityTitleLabel = "Primary:"
-    config.tooltipFields.primaryAbilityLabel = config.primaryAbility.name or "unknown"
-  end
-  if config.altAbility then
-    config.tooltipFields.altAbilityTitleLabel = "Special:"
-    config.tooltipFields.altAbilityLabel = config.altAbility.name or "unknown"
   end
 
   -- set price

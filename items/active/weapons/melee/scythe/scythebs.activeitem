@@ -7,33 +7,51 @@
   "shortdescription" : "scythebs",
   "tooltipKind" : "sword",
   "category" : "cane",
-  "twoHanded" : false,
+  "twoHanded" : true,
   "itemTags" : ["weapon","melee","cane"],
 
   "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
   "animationParts" : { },
-  "animationCustom" : { },
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "blade" : {
+          "properties" : {
+            "offset" : [0, -1],
+            "damageArea" : [ [-0.7, -1.0], [-0.7, 2.5], [0.5, 2.5], [0.5, -1.0] ]
+          }
+        },
+        "handle" : {
+          "properties" : {
+            "offset" : [0, -1]
+          }
+        }
+      }
+    }
+  },
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
   "elementalType" : "physical",
 
   "aimOffset" : 0.0,
-  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbilityType" : "shortswordcombo",
   "primaryAbility" : {
     "fireTime" : [0.71, 0.9],
     "baseDps" : [10, 11],
     "stances" : {
       "idle" : {
         "armRotation" : -90,
-        "weaponRotation" : -10,
+        "weaponRotation" : 80,
+        "weaponOffset" : [0,0],
         "allowRotate" : false,
         "allowFlip" : true
       },
       "windup1" : {
         "duration" : 0.1,
         "armRotation" : 90,
-        "weaponRotation" : -10,
+        "weaponRotation" : 80,
+        "weaponOffset" : [1.5,0],
         "twoHanded" : true,
 
         "allowRotate" : false,
@@ -42,7 +60,8 @@
       "preslash1" : {
         "duration" : 0.025,
         "armRotation" : 55,
-        "weaponRotation" : -45,
+        "weaponRotation" : 45,
+        "weaponOffset" : [2,0],
         "twoHanded" : true,
 
         "allowRotate" : false,
@@ -51,7 +70,8 @@
       "fire1" : {
         "duration" : 0.15,
         "armRotation" : -45,
-        "weaponRotation" : -55,
+        "weaponRotation" : 35,
+        "weaponOffset" : [2.5,0],
         "twoHanded" : true,
 
         "allowRotate" : false,
@@ -60,7 +80,8 @@
       "wait1" : {
         "duration" : 0.2,
         "armRotation" : -45,
-        "weaponRotation" : -55,
+        "weaponRotation" : 35,
+        "weaponOffset" : [2.5,0],
         "allowRotate" : false,
         "allowFlip" : true,
         "twoHanded" : true
@@ -68,8 +89,8 @@
       "windup2" : {
         "duration" : 0.15,
         "armRotation" : -15,
-        "weaponRotation" : -60,
-        "weaponOffset" : [0, 0],
+        "weaponRotation" : 30,
+        "weaponOffset" : [2.5,0],
         "twoHanded" : true,
         "allowFlip" : true,
         "allowRotate" : false
@@ -77,8 +98,8 @@
       "fire2" : {
         "duration" : 0.2,
         "armRotation" : -150,
-        "weaponRotation" : 55,
-        "weaponOffset" : [0, 0],
+        "weaponRotation" : 145,
+        "weaponOffset" : [1.5,0],
         "twoHanded" : true,
         "allowFlip" : true,
         "allowRotate" : false
@@ -86,8 +107,8 @@
       "wait2" : {
         "duration" : 0.2,
         "armRotation" : -150,
-        "weaponRotation" : 55,
-        "weaponOffset" : [0, 0],
+        "weaponRotation" : 145,
+        "weaponOffset" : [1,0],
         "allowRotate" : false,
         "allowFlip" : true,
         "twoHanded" : true
@@ -95,7 +116,7 @@
       "windup3" : {
         "duration" : 0.15,
         "armRotation" : -150,
-        "weaponRotation" : 55,
+        "weaponRotation" : 145,
         "twoHanded" : true,
 
         "allowRotate" : false,
@@ -104,7 +125,7 @@
       "fire3" : {
         "duration" : 0.3,
         "armRotation" : 0,
-        "weaponRotation" : -90,
+        "weaponRotation" : 0,
         "twoHanded" : true,
 
         "allowRotate" : false,
@@ -129,6 +150,17 @@
         "paletteSwap" : true
       }
     },
+    "altAbilities" : [
+      "uppercut",
+      "physicalshockwave",
+      "groundslam",
+      "bladecharge",
+      "downstab",
+      "parry",
+      "risingslash",
+      "spinslash",
+      "superspinslash"
+    ],
     "palette" : "/items/active/weapons/colors/melee.weaponcolors",
     "iconDrawables" : [ "blade" , "handle" ]
   }]

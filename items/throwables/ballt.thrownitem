@@ -4,7 +4,7 @@
   "category" : "throwableItem",
   "shortdescription" : "Bouncy Ball",
   "description" : "This ball bounces when thrown.",
-
+  "animation" : "/items/active/shields/shield.animation",
   "ammoUsage" : 1,
 
   "edgeTrigger" : true,
