@@ -30,7 +30,7 @@
     "energyUsage" : [15.75, 17.25],
     "inaccuracy" : 0.02,
 
-    "projectileType" : "bouncyball",
+    "projectileType" : "standardbullet",
     "projectileParameters" : {
       "knockbackRange" : [4,8]
     },
@@ -68,7 +68,7 @@
 
   "builder" : "/items/buildscripts/buildweapon.lua",
   "builderConfig" : [{
-//    "nameGenerator" : "pistolnames.config:nameGen",
+    "nameGenerator" : "pistolnames.config:nameGen",
     "animationParts" : {
       "butt" : {
         "path" : "/items/active/weapons/ranged/pistol/butt/<variant>.png",
