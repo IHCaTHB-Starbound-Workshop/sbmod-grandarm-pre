@@ -22,7 +22,7 @@
   "elementalType" : "physical",
 
   "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "scripts" : ["/items/active/weapons/ranged/gunfire0.lua"],
     "class" : "GunFire",
 
     "fireTime" : [0.33, 1.0],
@@ -68,7 +68,7 @@
 
   "builder" : "/items/buildscripts/buildweapon.lua",
   "builderConfig" : [{
-    "nameGenerator" : "pistolnames.config:nameGen",
+//    "nameGenerator" : "pistolnames.config:nameGen",
     "animationParts" : {
       "butt" : {
         "path" : "/items/active/weapons/ranged/pistol/butt/<variant>.png",
